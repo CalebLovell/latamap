@@ -1,38 +1,84 @@
-import type { V2_MetaFunction } from "@remix-run/node";
+import type { V2_MetaFunction } from '@remix-run/node';
+import { json } from '@remix-run/node';
+import { useLoaderData } from '@remix-run/react';
+import * as React from 'react';
+
+import { DataPanel } from '~/components/DataPanel';
+import { DateModal } from '~/components/DateModal';
+import { DisclaimerModal } from '~/components/DisclaimerModal';
+import { Footer } from '~/components/Footer';
+import { Header } from '~/components/Header';
+import { Key } from '~/components/Key';
+import { Map } from '~/components/Map';
+import { Sidebar } from '~/components/Sidebar';
+import { Slideover } from '~/components/Slideover';
+import { prisma } from '~/data/prisma.server';
+import { useMapStore } from '~/data/store';
 
 export const meta: V2_MetaFunction = () => {
-  return [{ title: "New Remix App" }];
+	return [
+		{ title: 'Latin American Political History Map' },
+		{ name: 'description', content: 'A visual timeline of the political history of Latin America' },
+		{ property: 'og:title', content: 'Latin American Political History Map' },
+		{ property: 'og:description', content: 'A visual timeline of the political history of Latin America' },
+		{ property: 'og:url', content: 'https://mapa-politico.fly.dev/images/screenshot.png' },
+		{ property: 'og:site_name', content: 'Latin American Political History Map' },
+		{ property: 'og:type', content: 'website' },
+		{ property: 'og:image', content: 'https://mapa-politico.fly.dev/images/screenshot.png' },
+		{ property: 'og:image:width', content: '1200' },
+		{ property: 'og:image:height', content: '630' },
+		{ property: 'og:image:type', content: 'image/png' },
+		{ name: 'twitter:card', content: 'summary_large_image' },
+		{ name: 'twitter:site', content: '@Caleb__Lovell' },
+		{ name: 'twitter:title', content: 'Latin American Political History Map' },
+		{ name: 'twitter:image', content: 'https://mapa-politico.fly.dev/images/screenshot.png' },
+		{ name: 'twitter:description', content: 'A visual timeline of the political history of Latin America' },
+		{ name: 'twitter:image:alt', content: 'A screenshot of the map set to January 1st, 2023' },
+	];
+};
+
+export const loader = async () => {
+	const response = new Response();
+	const leaders = await prisma.leader.findMany({ include: { Country: true } });
+
+	return json({ leaders }, { headers: response.headers });
 };
 
 export default function Index() {
-  return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
-  );
+	const { leaders } = useLoaderData<typeof loader>();
+	const { setLeaders } = useMapStore();
+
+	// leaders dates became strings instead of dates, so we need to convert them back to dates
+	const newLeaders = leaders.map(x => {
+		return {
+			...x,
+			tookOffice: new Date(x.tookOffice),
+			leftOffice: x.leftOffice ? new Date(x.leftOffice) : null,
+		};
+	});
+
+	React.useEffect(() => {
+		setLeaders(newLeaders);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
+
+	return (
+		<>
+			<div className='flex h-screen flex-col items-center bg-radial-at-br from-red-100 via-orange-100 to-blue-100'>
+				<Header />
+				<main className='flex h-full w-full max-w-3xl flex-1 flex-col items-center justify-center'>
+					<div className='relative h-content w-full'>
+						<DataPanel />
+						<Map />
+						<Key />
+					</div>
+					<Footer />
+				</main>
+				<Slideover />
+				<Sidebar />
+			</div>
+			<DateModal />
+			<DisclaimerModal />
+		</>
+	);
 }
