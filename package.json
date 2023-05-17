@@ -2,14 +2,15 @@
 	"private": true,
 	"sideEffects": false,
 	"scripts": {
-		"build": "remix build",
+		"build": "prisma generate && remix build",
 		"dev": "remix dev",
 		"pretty": "prettier app --write",
 		"linty": "eslint app --fix",
 		"ts": "tsc -b",
 		"clean": "npm run pretty && npm run linty && npm run ts",
 		"db:studio": "npx prisma studio",
-		"db:reset": "npx prisma migrate reset"
+		"db:reset": "npx prisma migrate reset",
+		"postinstall": "prisma generate"
 	},
 	"dependencies": {
 		"@headlessui/react": "^1.7.14",
