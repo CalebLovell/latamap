@@ -116,6 +116,13 @@ const importantDates = [
 			'Pinochet seizes power in Chile. The most famous of the US-backed coups in Latin America, Operation Condor is a US-backed campaign to overthrow left-wing governments in Latin America during the height of the Cold War.',
 	},
 	{
+		title: 'Federal Republic of Central America',
+		date: new Date(1821, 8, 15),
+		country: 'Guatemala',
+		description:
+			'The Federal Republic of Central America is formed by five Central American states after they declare independence from Spain, with their capital being Guatemala City. The union will last until 1838.',
+	},
+	{
 		title: 'Colombian Declaration of Independence',
 		date: new Date(1810, 6, 20),
 		country: 'Colombia',
