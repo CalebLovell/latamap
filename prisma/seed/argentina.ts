@@ -20,7 +20,7 @@ export const argentina: LeaderNoId[] = [
 		party: 'Junta President',
 		leaning: leanings.CENTRIST,
 		tookOffice: '25 May 1810',
-		leftOffice: '18 December 1810',
+		leftOffice: '26 August 1811',
 	},
 	{
 		countryId,

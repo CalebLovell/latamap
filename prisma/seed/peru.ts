@@ -44,7 +44,7 @@ export const peru: LeaderNoId[] = [
 		party: 'Independent',
 		leaning: leanings.CENTRIST,
 		tookOffice: '10 February 1824',
-		leftOffice: '27 January 1827',
+		leftOffice: '10 June 1827',
 	},
 	{
 		countryId,
@@ -68,7 +68,7 @@ export const peru: LeaderNoId[] = [
 		party: 'Military',
 		leaning: leanings.CENTRIST,
 		tookOffice: '21 December 1833',
-		leftOffice: '21 December 1833',
+		leftOffice: '25 February 1835',
 	},
 	{
 		countryId,
@@ -77,6 +77,14 @@ export const peru: LeaderNoId[] = [
 		leaning: leanings.CENTRIST,
 		tookOffice: '25 February 1835',
 		leftOffice: '7 February 1836',
+	},
+	{
+		countryId,
+		name: 'Andrés de Santa Cruz',
+		party: 'Peru–Bolivian Confederation',
+		leaning: leanings.CENTRIST,
+		tookOffice: '7 February 1836',
+		leftOffice: '20 January 1839',
 	},
 	{
 		countryId,
@@ -149,6 +157,14 @@ export const peru: LeaderNoId[] = [
 		leaning: leanings.CENTRIST,
 		tookOffice: '24 October 1862',
 		leftOffice: '3 April 1863',
+	},
+	{
+		countryId,
+		name: 'Pedro Diez Canseco',
+		party: 'Military',
+		leaning: leanings.CENTRIST,
+		tookOffice: '3 April 1863',
+		leftOffice: '5 August 1863',
 	},
 	{
 		countryId,
@@ -285,6 +301,14 @@ export const peru: LeaderNoId[] = [
 		leaning: leanings.RIGHT,
 		tookOffice: '30 December 1882',
 		leftOffice: '3 December 1885',
+	},
+	{
+		countryId,
+		name: 'Antonio Arenas',
+		party: 'President of the Government Junta of Peru',
+		leaning: leanings.CENTRIST,
+		tookOffice: '3 December 1885',
+		leftOffice: '5 June 1886',
 	},
 	{
 		countryId,

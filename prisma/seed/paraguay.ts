@@ -104,6 +104,14 @@ export const paraguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
+		name: 'Cirilo Antonio Rivarola',
+		party: 'Brazilian Provisional Government',
+		leaning: leanings.CENTER_RIGHT,
+		tookOffice: '1 March 1870',
+		leftOffice: '31 August 1870',
+	},
+	{
+		countryId,
 		name: 'Facundo Machaín',
 		party: 'Independent',
 		leaning: leanings.CENTRIST,
@@ -299,8 +307,8 @@ export const paraguay: LeaderNoId[] = [
 		name: `Emiliano González Navero`,
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_RIGHT,
-		tookOffice: `8 July 1908`,
-		leftOffice: `25 November 1910`,
+		tookOffice: `22 March 1912`,
+		leftOffice: `15 August 1912`,
 	},
 	{
 		countryId,

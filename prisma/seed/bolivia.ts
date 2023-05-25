@@ -248,6 +248,14 @@ export const bolivia: LeaderNoId[] = [
 	},
 	{
 		countryId,
+		name: 'Government Junta',
+		party: 'Bolivian Civil War',
+		leaning: leanings.CENTER_LEFT,
+		tookOffice: '12 April 1899',
+		leftOffice: '25 October 1899',
+	},
+	{
+		countryId,
 		name: `José Manuel Pando`,
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_LEFT,

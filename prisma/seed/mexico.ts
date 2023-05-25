@@ -748,14 +748,6 @@ export const mexico: LeaderNoId[] = [
 		party: 'Liberal Constitutionalist Party',
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: '13 August 1914',
-		leftOffice: '30 April 1917',
-	},
-	{
-		countryId,
-		name: 'Venustiano Carranza',
-		party: 'Liberal Constitutionalist Party',
-		leaning: leanings.CENTER_RIGHT,
-		tookOffice: '1 May 1917',
 		leftOffice: '21 May 1920',
 	},
 	{
@@ -763,7 +755,7 @@ export const mexico: LeaderNoId[] = [
 		name: 'Adolfo de la Huerta',
 		party: 'Liberal Constitutionalist Party',
 		leaning: leanings.CENTER_RIGHT,
-		tookOffice: '1 June 1920',
+		tookOffice: '21 May 1920',
 		leftOffice: '30 November 1920',
 	},
 	{
