@@ -2905,7 +2905,7 @@ export const geoJSON: Topology = {
 				},
 				{ arcs: [[-96, 127, -98]], type: `Polygon`, properties: { ADMIN: `Ecuador`, ISO_A3: `ECU`, CONTINENT: `South America` } },
 				{ arcs: [[128]], type: `Polygon`, properties: { ADMIN: `Puerto Rico`, ISO_A3: `PRI`, CONTINENT: `North America` } },
-				{ arcs: [[129]], type: `Polygon`, properties: { ADMIN: `Jamaica`, ISO_A3: `JAM`, CONTINENT: `North America` } },
+				// { arcs: [[129]], type: `Polygon`, properties: { ADMIN: `Jamaica`, ISO_A3: `JAM`, CONTINENT: `North America` } },
 				{ arcs: [[130]], type: `Polygon`, properties: { ADMIN: `Cuba`, ISO_A3: `CUB`, CONTINENT: `North America` } },
 				{ arcs: [[-84, -64, -93]], type: `Polygon`, properties: { ADMIN: `Paraguay`, ISO_A3: `PRY`, CONTINENT: `South America` } },
 				{ arcs: [[131]], type: `Polygon`, properties: { ADMIN: `Trinidad and Tobago`, ISO_A3: `TTO`, CONTINENT: `North America` } },

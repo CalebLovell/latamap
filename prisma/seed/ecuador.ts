@@ -243,7 +243,7 @@ export const ecuador: LeaderNoId[] = [
 		name: 'Luis Cordero Crespo',
 		party: 'Progressive Party / Republican Union Party',
 		leaning: leanings.CENTER_RIGHT,
-		tookOffice: '1 July 1892',
+		tookOffice: '10 June 1892',
 		leftOffice: '16 April 1895',
 	},
 	{

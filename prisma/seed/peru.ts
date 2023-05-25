@@ -35,7 +35,7 @@ export const peru: LeaderNoId[] = [
 		name: 'José Bernardo de Tagle',
 		party: 'Military',
 		leaning: leanings.CENTRIST,
-		tookOffice: '16 August 1823',
+		tookOffice: '23 June 1823',
 		leftOffice: '10 February 1824',
 	},
 	{
@@ -123,7 +123,7 @@ export const peru: LeaderNoId[] = [
 		name: 'Manuel Menéndez',
 		party: 'Independent',
 		leaning: leanings.CENTRIST,
-		tookOffice: '7 October 1844',
+		tookOffice: '17 June 1844',
 		leftOffice: '20 April 1845',
 	},
 	{
