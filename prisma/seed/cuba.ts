@@ -8,6 +8,22 @@ const countryId = 24;
 export const cuba: LeaderNoId[] = [
 	{
 		countryId,
+		name: 'Captaincy General of Cuba',
+		party: 'Spanish Empire',
+		leaning: leanings.MONARCHY,
+		tookOffice: '1 January 1607',
+		leftOffice: '10 December 1898',
+	},
+	{
+		countryId,
+		name: `United States Occupation`,
+		party: `John R. Brooke`,
+		leaning: leanings.RIGHT,
+		tookOffice: `1 January 1899`,
+		leftOffice: `20 May 1902`,
+	},
+	{
+		countryId,
 		name: `Tomás Estrada Palma`,
 		party: `Republican Party of Havana`,
 		leaning: leanings.RIGHT,

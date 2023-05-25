@@ -376,7 +376,28 @@ export const usa: LeaderNoId[] = [
 	},
 ];
 
-export const puertoRico = usa.map(x => {
-	// TODO only after October 18, 1898
-	return { ...x, countryId: 23 };
-});
+const spanishRule = {
+	countryId: 23,
+	name: `Captain General of Puerto Rico`,
+	party: `Spanish Empire`,
+	leaning: leanings.MONARCHY,
+	tookOffice: `1 January 1580`,
+	leftOffice: `1898-10-18T00:00:00.000Z`,
+};
+
+const firstAmericanPres = {
+	countryId: 23,
+	name: `William McKinley`,
+	party: `Republican Party`,
+	leaning: leanings.RIGHT,
+	tookOffice: `1898-10-18T00:00:00.000Z`,
+	leftOffice: `1901-09-14T00:00:00.000Z`,
+};
+
+export const puertoRico = usa
+	.map(x => {
+		return { ...x, countryId: 23 };
+	})
+	// Filter out presidents who took office before the US took control of Puerto Rico
+	.filter(x => x.tookOffice >= `1898-10-18T00:00:00.000Z`)
+	.concat([spanishRule, firstAmericanPres]);

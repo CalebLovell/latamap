@@ -8,6 +8,14 @@ const countryId = 22;
 export const chile: LeaderNoId[] = [
 	{
 		countryId,
+		name: 'Viceroyalty of Peru',
+		party: 'Spanish Empire',
+		leaning: leanings.MONARCHY,
+		tookOffice: '1 January 1541',
+		leftOffice: '18 September 1810',
+	},
+	{
+		countryId,
 		name: 'Mateo de Toro y Zambrano',
 		party: 'President of the First Government Junta',
 		leaning: leanings.CENTRIST,

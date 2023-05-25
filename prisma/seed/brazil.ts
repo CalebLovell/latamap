@@ -8,6 +8,14 @@ const countryId = 19;
 export const brazil: LeaderNoId[] = [
 	{
 		countryId,
+		name: 'Colonial Brazil',
+		party: `Portuguese Empire`,
+		leaning: leanings.MONARCHY,
+		tookOffice: `1 April 1500`,
+		leftOffice: `12 October 1822`,
+	},
+	{
+		countryId,
 		name: `Dom Pedro I`,
 		party: `Empire of Brazil`,
 		leaning: leanings.MONARCHY,

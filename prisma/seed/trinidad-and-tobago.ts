@@ -8,6 +8,22 @@ const countryId = 28;
 export const trinidadAndTobago: LeaderNoId[] = [
 	{
 		countryId,
+		name: 'Captaincy General of Venezuela',
+		party: `Spanish Empire`,
+		leaning: leanings.MONARCHY,
+		tookOffice: `1 January 1777`,
+		leftOffice: `1 January 1797`,
+	},
+	{
+		countryId,
+		name: `Colony of Trinidad and Tobago`,
+		party: `British Empire`,
+		leaning: leanings.MONARCHY,
+		tookOffice: `1 January 1797`,
+		leftOffice: `31 August 1962`,
+	},
+	{
+		countryId,
 		name: `Sir Solomon Hochoy`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
