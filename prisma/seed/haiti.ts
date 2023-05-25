@@ -227,7 +227,7 @@ export const haiti: LeaderNoId[] = [
 		name: 'Pierre Théoma Boisrond-Canal',
 		party: 'Liberal Party',
 		leaning: leanings.CENTER_LEFT,
-		tookOffice: '26 May 1902',
+		tookOffice: '12 May 1902',
 		leftOffice: '17 December 1902',
 	},
 	{
