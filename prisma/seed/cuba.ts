@@ -82,7 +82,7 @@ export const cuba: LeaderNoId[] = [
 		countryId,
 		name: `Alberto Herrera Franchi`,
 		party: `Military`,
-		leaning: leanings.CENTRIST,
+		leaning: leanings.MILITARY,
 		tookOffice: `12 August 1933`,
 		leftOffice: `13 August 1933`,
 	},

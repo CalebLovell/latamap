@@ -186,7 +186,7 @@ export const ecuador: LeaderNoId[] = [
 		countryId,
 		name: `Ignacio de Veintemilla`,
 		party: `Military`,
-		leaning: leanings.CENTER_LEFT,
+		leaning: leanings.MILITARY,
 		tookOffice: `8 September 1876`,
 		leftOffice: `10 January 1883`,
 	},

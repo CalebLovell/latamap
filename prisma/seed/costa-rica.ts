@@ -170,7 +170,7 @@ export const costaRica: LeaderNoId[] = [
 		countryId,
 		name: `Jesús Jiménez Zamora`,
 		party: `Military`,
-		leaning: leanings.CENTRIST,
+		leaning: leanings.MILITARY,
 		tookOffice: `1 November 1868`,
 		leftOffice: `27 April 1870`,
 	},
