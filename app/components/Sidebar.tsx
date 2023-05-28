@@ -19,7 +19,7 @@ export const Sidebar = () => {
 
 	const sections = [
 		{
-			title: 'Map Controls',
+			title: `Map Controls`,
 			options: [
 				{
 					title: `Select a Date`,
@@ -31,7 +31,7 @@ export const Sidebar = () => {
 				},
 				{
 					title: `Swap Color Scheme`,
-					onClick: () => setMapColorType(mapColorType === 'usa' ? 'global' : 'usa'),
+					onClick: () => setMapColorType(mapColorType === `usa` ? `global` : `usa`),
 					icon: <SwatchIcon className='h-6 w-6 text-gray-900' />,
 				},
 				{
@@ -47,7 +47,7 @@ export const Sidebar = () => {
 			],
 		},
 		{
-			title: 'Learn More',
+			title: `Learn More`,
 			options: [
 				{
 					title: `Methodology Disclaimer`,

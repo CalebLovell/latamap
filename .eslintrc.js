@@ -1,8 +1,8 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: [
-		'@remix-run/eslint-config',
-		'@remix-run/eslint-config/node',
+		`@remix-run/eslint-config`,
+		`@remix-run/eslint-config/node`,
 		`plugin:react/recommended`,
 		`plugin:react-hooks/recommended`,
 		`plugin:jsx-a11y/recommended`,
@@ -10,7 +10,7 @@ module.exports = {
 		`plugin:@typescript-eslint/recommended`,
 		`prettier`,
 	],
-	plugins: ['simple-import-sort'],
+	plugins: [`simple-import-sort`],
 	rules: {
 		'simple-import-sort/imports': 2,
 		'@typescript-eslint/explicit-module-boundary-types': `off`,
@@ -29,6 +29,7 @@ module.exports = {
 		'handle-callback-err': [`error`, `error`],
 		indent: [`error`, `tab`, { SwitchCase: 1 }],
 		'jsx-quotes': [`error`, `prefer-single`],
+		quotes: [`error`, `backtick`],
 		'keyword-spacing': [`error`, { before: true, after: true }],
 		'max-nested-callbacks': [`error`, { max: 4 }],
 		'max-statements-per-line': [`error`, { max: 1 }],

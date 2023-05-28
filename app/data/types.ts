@@ -64,5 +64,5 @@ export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 };
 
 export function classNames(...classes: string[]) {
-	return classes.filter(Boolean).join(' ');
+	return classes.filter(Boolean).join(` `);
 }

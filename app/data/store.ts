@@ -18,7 +18,7 @@ export const useMapStore = create<MapState>(set => ({
 	setLeaders: by => set({ leaders: by }),
 	date: new Date(),
 	setDate: by => set(() => ({ date: by })),
-	selectedCountry: 'United States of America',
+	selectedCountry: `United States of America`,
 	setSelectedCountry: by => set(() => ({ selectedCountry: by })),
 	mapColorType: `global`,
 	setMapColorType: by => set(() => ({ mapColorType: by })),

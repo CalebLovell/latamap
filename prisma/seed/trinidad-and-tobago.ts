@@ -8,7 +8,7 @@ const countryId = 28;
 export const trinidadAndTobago: LeaderNoId[] = [
 	{
 		countryId,
-		name: 'Captaincy General of Venezuela',
+		name: `Captaincy General of Venezuela`,
 		party: `Spanish Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 January 1777`,

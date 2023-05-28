@@ -30,7 +30,7 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 				fill={fill}
 				onClick={onClick}
 				className='cursor-pointer transition duration-500 ease-in-out hover:opacity-80 active:opacity-50'
-				style={{ WebkitTapHighlightColor: 'transparent' }}
+				style={{ WebkitTapHighlightColor: `transparent` }}
 			/>
 			<defs>
 				<pattern id='diagonal' width='5' height='5' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'>
@@ -42,10 +42,10 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 				y={centroid[1]}
 				className='pointer-events-none select-none font-semibold'
 				style={{
-					fontWeight: 'bold',
-					fontSize: '6px',
-					textAnchor: 'middle',
-					alignmentBaseline: 'middle',
+					fontWeight: `bold`,
+					fontSize: `6px`,
+					textAnchor: `middle`,
+					alignmentBaseline: `middle`,
 				}}
 			>
 				{ISO_A3}

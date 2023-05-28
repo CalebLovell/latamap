@@ -31,19 +31,19 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 									<Listbox.Option
 										key={x.id}
 										className={({ active }) =>
-											classNames(active ? 'bg-gray-600 text-white' : 'text-gray-900', 'relative cursor-default select-none py-2 pl-3 pr-9')
+											classNames(active ? `bg-gray-600 text-white` : `text-gray-900`, `relative cursor-default select-none py-2 pl-3 pr-9`)
 										}
 										value={x}
 									>
 										{({ selected: sel, active }) => (
 											<>
-												<span className={classNames(sel ? 'font-semibold' : 'font-normal', 'block truncate')}>{x.name}</span>
+												<span className={classNames(sel ? `font-semibold` : `font-normal`, `block truncate`)}>{x.name}</span>
 
 												{sel ? (
 													<span
 														className={classNames(
-															active ? 'text-white' : 'text-gray-600',
-															'absolute inset-y-0 right-0 flex items-center pr-4'
+															active ? `text-white` : `text-gray-600`,
+															`absolute inset-y-0 right-0 flex items-center pr-4`
 														)}
 													>
 														<CheckIcon className='h-5 w-5' aria-hidden='true' />

@@ -80,7 +80,7 @@ export const DisclaimerModal = () => {
 								</div>
 								<Dialog.Description className='mb-2'>
 									If you notice any errors in the data or any other bugs, or just have a comment, I would love to hear from you! You can
-									contact me{' '}
+									contact me{` `}
 									<a
 										className='font-medium text-red-600 hover:underline'
 										href='https://www.caleblovell.com/contact'

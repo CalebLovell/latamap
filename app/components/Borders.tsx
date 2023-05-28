@@ -28,11 +28,11 @@ const SelectedBorders = () => {
 		countries,
 		(a, b) => a !== b && (a.properties.ADMIN === selectedCountry || b.properties.ADMIN === selectedCountry)
 	);
-	const mapBorders = { type: 'MultiLineString', coordinates: outerBorders.coordinates.concat(innerBorders.coordinates) };
+	const mapBorders = { type: `MultiLineString`, coordinates: outerBorders.coordinates.concat(innerBorders.coordinates) };
 
 	const d = path(mapBorders) ? String(path(mapBorders)) : undefined;
 
-	const stroke = 'black';
+	const stroke = `black`;
 	const strokeWidth = 1.2;
 
 	return <path d={d} strokeWidth={strokeWidth} stroke={stroke} fill='none' className='transition duration-300 ease-in-out' strokeLinejoin='round' />;
@@ -51,11 +51,11 @@ const UnselectedBorders = () => {
 		geoJSON.objects.countries,
 		(a, b) => a !== b && a.properties.ADMIN !== selectedCountry && b.properties.ADMIN !== selectedCountry
 	);
-	const mapBorders = { type: 'MultiLineString', coordinates: outerBorders.coordinates.concat(innerBorders.coordinates) };
+	const mapBorders = { type: `MultiLineString`, coordinates: outerBorders.coordinates.concat(innerBorders.coordinates) };
 
 	const d = path(mapBorders) ? String(path(mapBorders)) : undefined;
 
-	const stroke = 'white';
+	const stroke = `white`;
 	const strokeWidth = 0.5;
 
 	return <path d={d} strokeWidth={strokeWidth} stroke={stroke} fill='none' className='transition duration-300 ease-in-out' strokeLinejoin='round' />;

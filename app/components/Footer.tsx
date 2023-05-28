@@ -9,8 +9,8 @@ import { useMapStore } from '~/data/store';
 const step = 1;
 const min = 1789;
 const max = new Date().getFullYear();
-const background = 'rgb(31 41 55)';
-const accent = 'rgb(156 163 175)';
+const background = `rgb(31 41 55)`;
+const accent = `rgb(156 163 175)`;
 
 export const Footer = () => {
 	const { date, setDate } = useMapStore();
@@ -49,8 +49,8 @@ const TimelineBar = ({ selectedYear, setSelectedYear }: Props) => {
 		setSelectedYear(selectedYear - 1);
 	};
 
-	useKeyPressEvent('ArrowLeft', decrement);
-	useKeyPressEvent('ArrowRight', increment);
+	useKeyPressEvent(`ArrowLeft`, decrement);
+	useKeyPressEvent(`ArrowRight`, increment);
 
 	return (
 		<>
@@ -92,7 +92,7 @@ const TimelineBar = ({ selectedYear, setSelectedYear }: Props) => {
 						className='flex h-8 w-8 items-center justify-center rounded-md border-2 border-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2'
 					>
 						<div className='absolute -top-10 rounded-sm bg-gray-800 px-2 py-1 text-white'>{selectedYear}</div>
-						<div className={clsx('h-1/2 w-1', `${isDragged ? 'bg-gray-800' : 'bg-gray-400'}`)} />
+						<div className={clsx(`h-1/2 w-1`, `${isDragged ? `bg-gray-800` : `bg-gray-400`}`)} />
 					</div>
 				)}
 			/>
@@ -167,7 +167,7 @@ const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 					<BackwardIcon className='h-8 w-8' />
 				</button>
 				<button
-					title={isPlaying ? 'Pause Timeline' : 'Autoplay Timeline'}
+					title={isPlaying ? `Pause Timeline` : `Autoplay Timeline`}
 					type='button'
 					className='rounded-full from-red-200 via-orange-200 to-blue-200 p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95'
 					onClick={() => setIsPlaying(!isPlaying)}

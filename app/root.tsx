@@ -5,8 +5,8 @@ import globals from '~/styles/globals.css';
 
 export const links: LinksFunction = () => {
 	return [
-		{ rel: 'stylesheet', href: globals },
-		{ rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' },
+		{ rel: `stylesheet`, href: globals },
+		{ rel: `icon`, href: `/favicon.ico`, type: `image/x-icon` },
 	];
 };
 
@@ -20,7 +20,7 @@ export default function App() {
 				<Links />
 			</head>
 			<body>
-				<div id='tooltip' style={{ position: 'absolute', opacity: 0, zIndex: 10000000 }} />
+				<div id='tooltip' style={{ position: `absolute`, opacity: 0, zIndex: 10000000 }} />
 				<Outlet />
 				<ScrollRestoration />
 				<script defer data-domain='latamap.com' src='https://plausible.io/js/script.js' />
