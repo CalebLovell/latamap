@@ -43,7 +43,7 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 				className='pointer-events-none select-none font-semibold'
 				style={{
 					fontWeight: 'bold',
-					fontSize: '6',
+					fontSize: '6px',
 					textAnchor: 'middle',
 					alignmentBaseline: 'middle',
 				}}
