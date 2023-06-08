@@ -379,7 +379,7 @@ export const usa: LeaderNoId[] = [
 const spanishRule = {
 	countryId: 23,
 	name: `Captain General of Puerto Rico`,
-	party: `Spanish Empire`,
+	party: `Kingdom of Spain`,
 	leaning: leanings.MONARCHY,
 	tookOffice: `1 January 1580`,
 	leftOffice: `1898-10-18T00:00:00.000Z`,

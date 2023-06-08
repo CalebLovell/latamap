@@ -9,7 +9,7 @@ export const costaRica: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Viceroyalty of New Spain`,
-		party: `Spanish Empire`,
+		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `18 August 1521`,
 		leftOffice: `8 September 1824`,

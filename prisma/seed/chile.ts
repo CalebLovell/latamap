@@ -9,7 +9,7 @@ export const chile: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Viceroyalty of Peru`,
-		party: `Spanish Empire`,
+		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 January 1541`,
 		leftOffice: `18 September 1810`,

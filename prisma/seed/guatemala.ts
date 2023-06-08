@@ -9,7 +9,7 @@ export const guatemala: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Viceroyalty of New Spain`,
-		party: `Spanish Empire`,
+		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `18 August 1521`,
 		leftOffice: `15 September 1824`,

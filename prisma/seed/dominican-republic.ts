@@ -9,7 +9,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Captaincy General of Santo Domingo`,
-		party: `Spanish Empire`,
+		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 January 1535`,
 		leftOffice: `22 July 1795`,
@@ -25,7 +25,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 	{
 		countryId,
 		name: `España Boba`,
-		party: `Spanish Empire`,
+		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `9 July 1809`,
 		leftOffice: `1 December 1821`,

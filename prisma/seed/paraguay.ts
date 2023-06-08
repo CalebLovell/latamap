@@ -9,7 +9,7 @@ export const paraguay: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Viceroyalty of the Río de la Plata`,
-		party: `Spanish Empire`,
+		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 August 1776`,
 		leftOffice: `16 May 1811`,

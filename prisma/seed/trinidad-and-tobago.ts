@@ -9,7 +9,7 @@ export const trinidadAndTobago: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Captaincy General of Venezuela`,
-		party: `Spanish Empire`,
+		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 January 1777`,
 		leftOffice: `1 January 1797`,
