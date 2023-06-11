@@ -24,6 +24,14 @@ export const haiti: LeaderNoId[] = [
 	},
 	{
 		countryId,
+		name: `Vacant Presidency`,
+		party: `French Invasion - Total War`,
+		leaning: leanings.MILITARY,
+		tookOffice: `6 May 1802`,
+		leftOffice: `1 January 1804`,
+	},
+	{
+		countryId,
 		name: `Jean-Jacques Dessalines`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
