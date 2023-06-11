@@ -40,12 +40,12 @@ const TimelineBar = ({ selectedYear, setSelectedYear }: Props) => {
 	};
 
 	const increment = () => {
-		if (selectedYear === max) return;
+		if (selectedYear === max) return setSelectedYear(min);
 		setSelectedYear(selectedYear + 1);
 	};
 
 	const decrement = () => {
-		if (selectedYear === min) return;
+		if (selectedYear === min) return setSelectedYear(max);
 		setSelectedYear(selectedYear - 1);
 	};
 
