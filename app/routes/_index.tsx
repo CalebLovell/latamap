@@ -1,4 +1,5 @@
 import type { V2_MetaFunction } from '@remix-run/node';
+import type { HeadersFunction } from '@remix-run/node';
 import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
 import * as React from 'react';
@@ -36,6 +37,10 @@ export const meta: V2_MetaFunction = () => {
 		{ name: `twitter:image:alt`, content: `A screenshot of the map set to January 1st, 2023` },
 	];
 };
+
+export const headers: HeadersFunction = () => ({
+	'Cache-Control': `public, max-age=31536000`,
+});
 
 export const loader = async () => {
 	const response = new Response();
