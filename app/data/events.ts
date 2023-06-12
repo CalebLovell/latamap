@@ -31,7 +31,7 @@ export const events = [
 	},
 	{
 		title: `Federal Republic of Central America`,
-		date: new Date(1823, 6, 2),
+		date: new Date(1823, 6, 1),
 		country: `Guatemala`,
 		description: `The Federal Republic of Central America is formed by five Central American states after they declare independence from Spain, with their capital being Guatemala City. The union will last until 1838.`,
 	},
@@ -73,25 +73,25 @@ export const events = [
 	},
 	{
 		title: `Cuban Revolution`,
-		date: new Date(1959, 6, 19),
+		date: new Date(1959, 6, 18),
 		country: `Cuba`,
 		description: `Fidel Castro leads a successful revolution in Cuba, overthrowing the US-backed Batista regime. The Cuban Revolution will inspire left-wing movements throughout Latin America, and will lead to the failed US-backed Bay of Pigs invasion in 1961.`,
 	},
 	{
 		title: `Operation Condor`,
-		date: new Date(1973, 8, 12),
+		date: new Date(1973, 8, 11),
 		country: `Chile`,
 		description: `Pinochet seizes power in Chile. The most famous of the US-backed coups in Latin America, Operation Condor is a US-backed campaign to overthrow left-wing governments in Latin America during the height of the Cold War.`,
 	},
 	{
 		title: `Return to Democracy`,
-		date: new Date(1979, 7, 11),
+		date: new Date(1979, 7, 10),
 		country: `Ecuador`,
 		description: `Jaime Aguilera is elected president of Ecuador, marking the beginning of a return to democracy in Latin America. Over the next fifteen years, twenty countries in Latin America will return to democracy after decades of military rule.`,
 	},
 	{
 		title: `First Pink Tide`,
-		date: new Date(2007, 0, 11),
+		date: new Date(2007, 0, 10),
 		country: `Nicaragua`,
 		description: `Daniel Ortega is elected president of Nicaragua, following in the footsteps of leaders like Hugo Chávez of Venezuela, Evo Morales of Bolivia, and Néstor Kirchner in Argentina. The next decade will see nearly every country in South America elect a "pink", or left-leaning goverment.`,
 	},
@@ -103,7 +103,7 @@ export const events = [
 	},
 	{
 		title: `Second Pink Tide`,
-		date: new Date(2023, 0, 2),
+		date: new Date(2023, 0, 1),
 		country: `Brazil`,
 		description: `Lula da Silva is elected president of Brazil, capping off a second wave of left-wing leaders elected in Latin America, with leaders like AMLO of Mexico, Gustavo Petro of Colombia, Gabriel Boric of Chile, and a resurgent Nicolás Maduro in Venezuela dominating the political landscape.`,
 	},

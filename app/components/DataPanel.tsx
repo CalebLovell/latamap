@@ -3,18 +3,14 @@ import { format } from 'date-fns';
 import Draggable from 'react-draggable';
 
 import { useAppStore, useMapStore } from '~/data/store';
-import { leaningLabels } from '~/data/types';
+import { getLeadersByDate, leaningLabels } from '~/data/types';
 
 const formatDate = (date: Date | undefined) => (date ? format(new Date(date), `MMM d, yyy`) : undefined);
 
 export const DataPanel = () => {
 	const { panelIsVisible } = useAppStore();
 	const { leaders, date, selectedCountry, setSelectedCountry } = useMapStore();
-	const leadersByDate = leaders?.filter(x => {
-		const tookOffice = new Date(x.tookOffice);
-		const leftOffice = x.leftOffice ? new Date(x.leftOffice) : new Date();
-		return tookOffice <= date && leftOffice >= date;
-	});
+	const leadersByDate = getLeadersByDate(leaders, date);
 	const leader = leadersByDate?.find(x => x.Country.name === selectedCountry);
 
 	const country = selectedCountry ? selectedCountry : `Select a Country`;

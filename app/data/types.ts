@@ -70,3 +70,13 @@ export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 export function classNames(...classes: string[]) {
 	return classes.filter(Boolean).join(` `);
 }
+
+export const getLeadersByDate = (leaders: LeaderReturn[], date: Date) => {
+	const leadersByDate = leaders?.filter(x => {
+		const tookOffice = new Date(x.tookOffice);
+		const leftOffice = x.leftOffice ? new Date(x.leftOffice) : new Date();
+		const dateIsBetween = date >= tookOffice && date < leftOffice;
+		return dateIsBetween;
+	});
+	return leadersByDate;
+};

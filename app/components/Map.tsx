@@ -7,15 +7,12 @@ import { Country } from '~/components/Country';
 import { LoadingSpinner } from '~/components/LoadingSpinner';
 import { adjustCentroids, laTopoJson, mapHeight, mapWidth } from '~/data/map';
 import { useMapStore } from '~/data/store';
+import { getLeadersByDate } from '~/data/types';
 
 export const Map = () => {
 	const { leaders } = useMapStore();
 	const { date } = useMapStore();
-	const leadersByDate = leaders?.filter(x => {
-		const tookOffice = new Date(x.tookOffice);
-		const leftOffice = x.leftOffice ? new Date(x.leftOffice) : new Date();
-		return tookOffice <= date && leftOffice >= date;
-	});
+	const leadersByDate = getLeadersByDate(leaders, date);
 	const svgRef = React.useRef(null);
 	const gRef = React.useRef(null);
 
