@@ -17,8 +17,8 @@ export const haiti: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Toussaint Louverture`,
-		party: `Independent`,
-		leaning: leanings.CENTRIST,
+		party: `Independent / Military`,
+		leaning: leanings.MILITARY,
 		tookOffice: `1 January 1791`,
 		leftOffice: `6 May 1802`,
 	},

@@ -1,0 +1,121 @@
+import type { LeaderNoId } from '../../app/data/types';
+import { leanings } from '../../app/data/types';
+
+export const source = `https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Federal_Republic_of_Central_America`;
+
+const countryId = 9999;
+
+export const guatemala: LeaderNoId[] = [
+	{
+		countryId,
+		name: `Captaincy General of Guatemala`,
+		party: `Kingdom of Spain`,
+		leaning: leanings.MONARCHY,
+		tookOffice: `1 January 1609`,
+		leftOffice: `15 September 1821`,
+	},
+	{
+		countryId,
+		name: `Gabino Gaínza`,
+		party: `Military / Central American Independence`,
+		leaning: leanings.MILITARY,
+		tookOffice: `15 September 1821`,
+		leftOffice: `5 January 1822`,
+	},
+	{
+		countryId,
+		name: `Agustín de Iturbide`,
+		party: `First Mexican Empire`,
+		leaning: leanings.MONARCHY,
+		tookOffice: `5 January 1822`,
+		leftOffice: `1 July 1823`,
+	},
+	{
+		countryId,
+		name: `Vicente Filísola - Federal Republic of Central America`,
+		party: `Independent`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `1 July 1823`,
+		leftOffice: `10 July 1823`,
+	},
+	{
+		countryId,
+		name: `First Triumvirate - Federal Republic of Central America`,
+		party: `Independent`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `10 July 1823`,
+		leftOffice: `4 October 1823`,
+	},
+	{
+		countryId,
+		name: `Second Triumvirate - Federal Republic of Central America`,
+		party: `Independent`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `4 October 1823`,
+		leftOffice: `29 April 1825`,
+	},
+	{
+		countryId,
+		name: `Manuel José Arce - Federal Republic of Central America`,
+		party: `Liberal`,
+		leaning: leanings.LEFT,
+		tookOffice: `29 April 1825`,
+		leftOffice: `13 April 1829`,
+	},
+	{
+		countryId,
+		name: `Mariano Beltranena y Llano - Federal Republic of Central America`,
+		party: `Liberal`,
+		leaning: leanings.LEFT,
+		tookOffice: `13 April 1829`,
+		leftOffice: `14 June 1829`,
+	},
+	{
+		countryId,
+		name: `Francisco Morazán - Federal Republic of Central America`,
+		party: `Liberal`,
+		leaning: leanings.LEFT,
+		tookOffice: `14 June 1829`,
+		leftOffice: `25 June 1829`,
+	},
+	{
+		countryId,
+		name: `José Francisco Barrundia - Federal Republic of Central America`,
+		party: `Liberal`,
+		leaning: leanings.LEFT,
+		tookOffice: `25 June 1829`,
+		leftOffice: `16 September 1830`,
+	},
+	{
+		countryId,
+		name: `Francisco Morazán - Federal Republic of Central America`,
+		party: `Liberal`,
+		leaning: leanings.LEFT,
+		tookOffice: `16 September 1830`,
+		leftOffice: `16 September 1834`,
+	},
+	{
+		countryId,
+		name: `José Gregorio Salazar - Federal Republic of Central America`,
+		party: `Liberal`,
+		leaning: leanings.LEFT,
+		tookOffice: `16 September 1834`,
+		leftOffice: `14 February 1835`,
+	},
+	{
+		countryId,
+		name: `Francisco Morazán - Federal Republic of Central America`,
+		party: `Liberal`,
+		leaning: leanings.LEFT,
+		tookOffice: `14 February 1835`,
+		leftOffice: `1 February 1839`,
+	},
+	{
+		countryId,
+		name: `Diego Vigil y Cocaña - Federal Republic of Central America`,
+		party: `Liberal`,
+		leaning: leanings.LEFT,
+		tookOffice: `1 February 1839`,
+		leftOffice: `31 March 1840`,
+	},
+];

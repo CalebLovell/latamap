@@ -16,10 +16,10 @@ export const panama: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Simón Bolívar`,
-		party: `Independent`,
-		leaning: leanings.CENTRIST,
-		tookOffice: `28 November 1821`,
+		name: `Simón Bolívar - Gran Colombia`,
+		party: `Independent / Military`,
+		leaning: leanings.MILITARY,
+		tookOffice: `17 December 1819`,
 		leftOffice: `20 October 1831`,
 	},
 	{

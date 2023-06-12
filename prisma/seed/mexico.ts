@@ -17,7 +17,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Juan O'Donojú`,
-		party: `First Regency`,
+		party: `First Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `28 September 1821`,
 		leftOffice: `8 October 1821`,
@@ -25,7 +25,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Agustín de Iturbide`,
-		party: `First Regency`,
+		party: `First Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `28 September 1821`,
 		leftOffice: `11 April 1822`,
@@ -33,7 +33,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Manuel de la Barcéna`,
-		party: `First Regency`,
+		party: `First Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `28 September 1821`,
 		leftOffice: `11 April 1822`,
@@ -41,7 +41,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `José Isidro Yañez`,
-		party: `First Regency`,
+		party: `First Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `28 September 1821`,
 		leftOffice: `11 April 1822`,
@@ -49,7 +49,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Manuel Velázquez de León`,
-		party: `First Regency`,
+		party: `First Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `28 September 1821`,
 		leftOffice: `11 April 1822`,
@@ -57,7 +57,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Antonio Pérez Martínez`,
-		party: `First Regency`,
+		party: `First Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `8 October 1821`,
 		leftOffice: `11 April 1822`,
@@ -65,7 +65,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Agustín de Iturbide`,
-		party: `Second Regency`,
+		party: `Second Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `11 April 1822`,
 		leftOffice: `18 May 1822`,
@@ -73,7 +73,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `José Isidro Yañez`,
-		party: `Second Regency`,
+		party: `Second Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `11 April 1822`,
 		leftOffice: `18 May 1822`,
@@ -81,7 +81,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Miguel Valentín`,
-		party: `Second Regency`,
+		party: `Second Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `11 April 1822`,
 		leftOffice: `18 May 1822`,
@@ -89,7 +89,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Manuel de Heras`,
-		party: `Second Regency`,
+		party: `Second Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `11 April 1822`,
 		leftOffice: `18 May 1822`,
@@ -97,7 +97,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Nicolás Bravo`,
-		party: `Second Regency`,
+		party: `Second Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `11 April 1822`,
 		leftOffice: `18 May 1822`,
@@ -105,7 +105,7 @@ export const mexico: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Agustín I`,
-		party: `Monarchy of Agustín de Iturbide I`,
+		party: `Royal House of Agustín de Iturbide I`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `19 May 1822`,
 		leftOffice: `19 March 1823`,
