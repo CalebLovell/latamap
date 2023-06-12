@@ -27,22 +27,22 @@ export const Sidebar = () => {
 						setDateModalIsOpen(true);
 						setSidebarIsOpen(false);
 					},
-					icon: <CalendarIcon className='h-6 w-6 text-gray-900' />,
+					icon: <CalendarIcon className='h-6 w-6 text-blue-900' />,
 				},
 				{
 					title: `Swap Color Scheme`,
 					onClick: () => setMapColorType(mapColorType === `usa` ? `global` : `usa`),
-					icon: <SwatchIcon className='h-6 w-6 text-gray-900' />,
+					icon: <SwatchIcon className='h-6 w-6 text-blue-900' />,
 				},
 				{
 					title: `Toggle Map Key`,
 					onClick: () => setKeyIsVisible(!keyIsVisible),
-					icon: <KeyIcon className='h-6 w-6 text-gray-900' />,
+					icon: <KeyIcon className='h-6 w-6 text-blue-900' />,
 				},
 				{
 					title: `Toggle Data Panel`,
 					onClick: () => setPanelIsVisible(!panelIsVisible),
-					icon: <TableCellsIcon className='h-6 w-6 text-gray-900' />,
+					icon: <TableCellsIcon className='h-6 w-6 text-blue-900' />,
 				},
 			],
 		},
@@ -55,12 +55,12 @@ export const Sidebar = () => {
 						setDisclaimerModalIsOpen(true);
 						setSidebarIsOpen(false);
 					},
-					icon: <ExclamationTriangleIcon className='h-6 w-6 text-gray-900' />,
+					icon: <ExclamationTriangleIcon className='h-6 w-6 text-blue-900' />,
 				},
 				{
 					title: `Read Full Blog Article`,
 					onClick: () => null,
-					icon: <BookOpenIcon className='h-6 w-6 text-gray-900' />,
+					icon: <BookOpenIcon className='h-6 w-6 text-blue-900' />,
 				},
 			],
 		},
@@ -101,7 +101,7 @@ export const Sidebar = () => {
 									>
 										<span className='sr-only'>Close sidebar</span>
 										<p className='mr-2 font-semibold'>Close</p>
-										<XMarkIcon className='h-6 w-6' aria-hidden='true' />
+										<XMarkIcon className='h-6 w-6 text-red-600' aria-hidden='true' />
 									</button>
 								</div>
 								<div className='h-0.5 w-full bg-gradient-to-r from-blue-400 via-orange-400 to-red-400' />
@@ -126,7 +126,7 @@ export const Sidebar = () => {
 														<button
 															key={x.title}
 															onClick={x.onClick}
-															className='flex w-full items-center justify-between rounded-md bg-gray-200 from-red-200 via-orange-200 to-blue-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95'
+															className='flex w-full items-center justify-between border border-gray-400 rounded-md bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95'
 														>
 															{x.title}
 															{x.icon}
@@ -141,7 +141,7 @@ export const Sidebar = () => {
 											<a
 												key={x.title}
 												href={x.href}
-												className='rounded from-red-200 via-orange-200 to-blue-200 p-2 text-gray-900 transition duration-150 ease-in-out hover:rotate-12 hover:bg-gray-300'
+												className='rounded p-2 text-blue-900 transition duration-150 ease-in-out hover:rotate-12 hover:bg-gray-200'
 												target='_blank'
 												rel='noreferrer'
 											>

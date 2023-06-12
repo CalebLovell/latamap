@@ -16,17 +16,17 @@ export const Header = () => {
 					<button
 						title='Open Menu'
 						type='button'
-						className='flex transform rounded-md from-red-200 via-orange-200 to-blue-200 p-2 font-bold text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95'
+						className='flex transform rounded-md p-2 font-bold text-gray-900 duration-150 ease-in-out hover:bg-gray-200 active:scale-95'
 						onClick={() => setSidebarIsOpen(true)}
 					>
-						<Bars3BottomLeftIcon className='h-6 w-6' />
+						<Bars3BottomLeftIcon className='h-6 w-6 text-blue-900' />
 						<p className='ml-2 hidden font-semibold md:block'>Menu</p>
 					</button>
 					<div className='flex items-center'>
 						<button
 							title='Pick New Date'
 							type='button'
-							className='rounded-md from-red-200 via-orange-200 to-blue-200 p-2 text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95'
+							className='rounded-md p-2 text-blue-900 duration-150 ease-in-out hover:bg-gray-200 active:scale-95'
 							onClick={() => setDateModalIsOpen(true)}
 						>
 							<CalendarIcon className='h-6 w-6' />
@@ -37,11 +37,11 @@ export const Header = () => {
 						<button
 							title='Open Slideover'
 							type='button'
-							className='flex rounded-md from-red-200 via-orange-200 to-blue-200 p-2 text-gray-900 transition duration-150 ease-in-out hover:bg-red-200 active:scale-95'
+							className='flex rounded-md p-2 text-gray-900 transition duration-150 ease-in-out hover:bg-gray-200 active:scale-95'
 							onClick={() => setSlideoverIsOpen(!slideoverIsOpen)}
 						>
 							<p className='mr-2 hidden font-semibold md:block'>Events</p>
-							{slideoverIsOpen ? <ArrowRightCircleIcon className='h-6 w-6' /> : <ArrowLeftCircleIcon className='h-6 w-6' />}
+							{slideoverIsOpen ? <ArrowRightCircleIcon className='h-6 w-6 text-blue-900' /> : <ArrowLeftCircleIcon className='h-6 w-6 text-blue-900' />}
 						</button>
 					</div>
 				</div>
