@@ -11,8 +11,8 @@
 }
 
 :root {
-	--h-content: calc(100vh - theme('height.12') - theme('height.20') - theme(height[0.5]));
-	--h-slideover: calc(100vh - theme('height.12') - theme(height[0.5]));
+	--h-content: calc(100dvh - theme('height.12') - theme('height.20') - theme(height[0.5]));
+	--h-slideover: calc(100dvh - theme('height.12') - theme(height[0.5]));
 }
 
 /* custom scrollbar */
