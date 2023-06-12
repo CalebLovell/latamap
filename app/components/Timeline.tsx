@@ -12,7 +12,7 @@ const max = new Date().getFullYear();
 const background = `rgb(31 41 55)`;
 const accent = `rgb(156 163 175)`;
 
-export const Footer = () => {
+export const Timeline = () => {
 	const { date, setDate } = useMapStore();
 	const selectedYear = date.getFullYear();
 	const setSelectedYear = React.useCallback((year: number) => setDate(new Date(year, date.getMonth(), date.getDate())), [date, setDate]);
@@ -20,7 +20,7 @@ export const Footer = () => {
 	return (
 		<div className='flex h-20 w-full flex-col px-2 md:px-12'>
 			<div className='flex h-8 w-full items-center justify-between'>
-				<TimelineBar selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
+				<Slider selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
 			</div>
 			<div className='flex h-12 w-full flex-col items-center justify-center'>
 				<PlaybackBar selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
@@ -34,7 +34,7 @@ type Props = {
 	setSelectedYear: (year: number) => void;
 };
 
-const TimelineBar = ({ selectedYear, setSelectedYear }: Props) => {
+const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 	const onChange = (vals: number[]) => {
 		setSelectedYear(vals[0]);
 	};

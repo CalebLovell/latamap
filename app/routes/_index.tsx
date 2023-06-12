@@ -7,12 +7,12 @@ import * as React from 'react';
 import { DataPanel } from '~/components/DataPanel';
 import { DateModal } from '~/components/DateModal';
 import { DisclaimerModal } from '~/components/DisclaimerModal';
-import { Footer } from '~/components/Footer';
+import { EventList } from '~/components/EventList';
 import { Header } from '~/components/Header';
 import { Key } from '~/components/Key';
 import { Map } from '~/components/Map';
 import { Sidebar } from '~/components/Sidebar';
-import { Slideover } from '~/components/Slideover';
+import { Timeline } from '~/components/Timeline';
 import { prisma } from '~/data/prisma.server';
 import { useMapStore } from '~/data/store';
 
@@ -78,13 +78,13 @@ export default function Index() {
 				<Header />
 				<main className='flex h-full w-full max-w-3xl flex-1 flex-col items-center justify-center'>
 					<div className='relative h-content w-full'>
-						<DataPanel />
 						<Map />
+						<DataPanel />
 						<Key />
 					</div>
-					<Footer />
+					<Timeline />
 				</main>
-				<Slideover />
+				<EventList />
 				<Sidebar />
 			</div>
 			<DateModal />

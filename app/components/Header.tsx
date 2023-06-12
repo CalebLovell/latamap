@@ -41,7 +41,11 @@ export const Header = () => {
 							onClick={() => setSlideoverIsOpen(!slideoverIsOpen)}
 						>
 							<p className='mr-2 hidden font-semibold md:block'>Events</p>
-							{slideoverIsOpen ? <ArrowRightCircleIcon className='h-6 w-6 text-blue-900' /> : <ArrowLeftCircleIcon className='h-6 w-6 text-blue-900' />}
+							{slideoverIsOpen ? (
+								<ArrowRightCircleIcon className='h-6 w-6 text-blue-900' />
+							) : (
+								<ArrowLeftCircleIcon className='h-6 w-6 text-blue-900' />
+							)}
 						</button>
 					</div>
 				</div>

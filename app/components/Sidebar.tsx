@@ -126,7 +126,7 @@ export const Sidebar = () => {
 														<button
 															key={x.title}
 															onClick={x.onClick}
-															className='flex w-full items-center justify-between border border-gray-400 rounded-md bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95'
+															className='flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95'
 														>
 															{x.title}
 															{x.icon}

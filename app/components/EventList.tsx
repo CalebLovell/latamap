@@ -6,7 +6,7 @@ import { events } from '~/data/events';
 import { useAppStore, useMapStore } from '~/data/store';
 import { classNames } from '~/data/types';
 
-export const Slideover = () => {
+export const EventList = () => {
 	const { slideoverIsOpen } = useAppStore();
 
 	return (
@@ -40,9 +40,9 @@ const SlideoverContent = () => {
 
 	return (
 		<section className='overflow-auto pb-4'>
-			<ol className='relative pl-4 pr-1 pb-1'>
+			<ol className='relative pb-1 pl-4 pr-1'>
 				<div
-					className='absolute left-3 bottom-1 inline-block border border-gray-900'
+					className='absolute bottom-1 left-3 inline-block border border-gray-900'
 					style={{
 						borderWidth: `0 3px 3px 0`,
 						padding: `3px`,
@@ -59,9 +59,7 @@ const SlideoverContent = () => {
 							}}
 							type='button'
 						>
-							{i !== events.length - 1 && (
-								<div className='absolute -bottom-[1.55rem] -left-[.27rem] h-2 w-2 rounded-full bg-gray-900 pt-2' />
-							)}
+							{i !== events.length - 1 && <div className='absolute -bottom-[1.55rem] -left-[.27rem] h-2 w-2 rounded-full bg-gray-900 pt-2' />}
 							<time className='pb-1 text-xs font-semibold leading-none text-gray-500'>{formatDate(x.date)}</time>
 							<h3 className='text-lg font-semibold text-gray-900'>{x.title}</h3>
 							<p className='text-base font-normal text-gray-900'>{x.description}</p>

@@ -37,7 +37,6 @@ export const DataPanel = () => {
 
 					{leader?.name ? (
 						<>
-
 							<div className='space-y-0 border-y border-gray-300 p-1 md:space-y-1 md:p-2'>
 								<div className='flex w-full flex-none items-center gap-x-2'>
 									<dt className='flex-none'>
@@ -76,12 +75,11 @@ export const DataPanel = () => {
 									onClick={clearData}
 									className='w-full rounded-md bg-white px-2.5 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 active:scale-95'
 								>
-							Clear
+									Clear
 								</button>
 							</div>
 						</>
 					) : null}
-
 				</dl>
 			</div>
 		</Draggable>

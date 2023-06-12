@@ -20,16 +20,21 @@ const SelectedBorders = () => {
 
 	const outerBorders = topojson.mesh(
 		geoJSON,
+		// @ts-ignore
 		countries,
+		// @ts-ignore
 		(a, b) => a === b && a.properties.ADMIN === selectedCountry && b.properties.ADMIN === selectedCountry
 	);
 	const innerBorders = topojson.mesh(
 		geoJSON,
+		// @ts-ignore
 		countries,
+		// @ts-ignore
 		(a, b) => a !== b && (a.properties.ADMIN === selectedCountry || b.properties.ADMIN === selectedCountry)
 	);
 	const mapBorders = { type: `MultiLineString`, coordinates: outerBorders.coordinates.concat(innerBorders.coordinates) };
 
+	// @ts-ignore
 	const d = path(mapBorders) ? String(path(mapBorders)) : undefined;
 
 	const stroke = `black`;
@@ -43,16 +48,21 @@ const UnselectedBorders = () => {
 
 	const outerBorders = topojson.mesh(
 		geoJSON,
+		// @ts-ignore
 		geoJSON.objects.countries,
+		// @ts-ignore
 		(a, b) => a === b && a.properties.ADMIN !== selectedCountry && b.properties.ADMIN !== selectedCountry
 	);
 	const innerBorders = topojson.mesh(
 		geoJSON,
+		// @ts-ignore
 		geoJSON.objects.countries,
+		// @ts-ignore
 		(a, b) => a !== b && a.properties.ADMIN !== selectedCountry && b.properties.ADMIN !== selectedCountry
 	);
 	const mapBorders = { type: `MultiLineString`, coordinates: outerBorders.coordinates.concat(innerBorders.coordinates) };
 
+	// @ts-ignore
 	const d = path(mapBorders) ? String(path(mapBorders)) : undefined;
 
 	const stroke = `white`;
