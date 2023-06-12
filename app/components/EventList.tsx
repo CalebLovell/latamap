@@ -50,7 +50,7 @@ const SlideoverContent = () => {
 					}}
 				/>
 				{events.map((x, i) => (
-					<li key={x.title} className={classNames(i === 0 ? `pt-2` : ``, `relative border-l border-gray-900 pl-4`)}>
+					<li key={x.title} className={classNames(i === 0 ? `pt-0 lg:pt-2` : ``, `relative border-l border-gray-900 pl-4`)}>
 						<button
 							className='rounded-md p-2 text-left hover:bg-blue-200'
 							onClick={() => {
