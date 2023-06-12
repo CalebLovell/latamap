@@ -57,11 +57,6 @@ export const Sidebar = () => {
 					},
 					icon: <ExclamationTriangleIcon className='h-6 w-6 text-blue-900' />,
 				},
-				{
-					title: `Read Full Blog Article`,
-					onClick: () => null,
-					icon: <BookOpenIcon className='h-6 w-6 text-blue-900' />,
-				},
 			],
 		},
 	];
@@ -132,6 +127,15 @@ export const Sidebar = () => {
 															{x.icon}
 														</button>
 													))}
+													<a
+														className='flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95'
+														href='https://www.caleblovell.com/blog/building-latamap-website'
+														target='_blank'
+														rel='noreferrer'
+													>
+														Read Full Blog Article
+														<BookOpenIcon className='h-6 w-6 text-blue-900' />
+													</a>
 												</div>
 											</React.Fragment>
 										))}
