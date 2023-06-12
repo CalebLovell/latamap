@@ -427,7 +427,7 @@ export const paraguay: LeaderNoId[] = [
 		name: `Juan Manuel Frutos`,
 		party: `Colorado Party`,
 		leaning: leanings.RIGHT,
-		tookOffice: `16 June 1948`,
+		tookOffice: `3 June 1948`,
 		leftOffice: `15 August 1948`,
 	},
 	{
@@ -435,7 +435,7 @@ export const paraguay: LeaderNoId[] = [
 		name: `Juan Natalicio González`,
 		party: `Colorado Party`,
 		leaning: leanings.RIGHT,
-		tookOffice: `16 August 1948`,
+		tookOffice: `15 August 1948`,
 		leftOffice: `30 January 1949`,
 	},
 	{
