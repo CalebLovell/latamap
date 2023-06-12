@@ -40,8 +40,8 @@ export const venezuela: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Simón Bolívar`,
-		party: `Independent`,
+		name: `Simón Bolívar - Gran Colombia`,
+		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `15 February 1819`,
 		leftOffice: `13 January 1830`,

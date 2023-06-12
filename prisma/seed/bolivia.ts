@@ -12,6 +12,22 @@ export const bolivia: LeaderNoId[] = [
 		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 August 1776`,
+		leftOffice: `6 August 1825`,
+	},
+	{
+		countryId,
+		name: `José Mariano Serrano`,
+		party: `Independent`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `6 August 1825`,
+		leftOffice: `11 August 1825`,
+	},
+	{
+		countryId,
+		name: `Antonio José de Sucre`,
+		party: `Independent`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `11 August 1825`,
 		leftOffice: `12 August 1825`,
 	},
 	{

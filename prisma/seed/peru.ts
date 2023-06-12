@@ -17,8 +17,8 @@ export const peru: LeaderNoId[] = [
 	{
 		countryId,
 		name: `José de San Martín`,
-		party: `Independent`,
-		leaning: leanings.RIGHT,
+		party: `Military`,
+		leaning: leanings.MILITARY,
 		tookOffice: `3 August 1821`,
 		leftOffice: `20 September 1822`,
 	},
@@ -41,8 +41,8 @@ export const peru: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Simón Bolívar`,
-		party: `Independent`,
-		leaning: leanings.CENTRIST,
+		party: `Military`,
+		leaning: leanings.MILITARY,
 		tookOffice: `10 February 1824`,
 		leftOffice: `10 June 1827`,
 	},

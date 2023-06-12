@@ -12,14 +12,14 @@ export const paraguay: LeaderNoId[] = [
 		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 August 1776`,
-		leftOffice: `16 May 1811`,
+		leftOffice: `14 May 1811`,
 	},
 	{
 		countryId,
 		name: `Governor Intendants`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
-		tookOffice: `16 May 1811`,
+		tookOffice: `14 May 1811`,
 		leftOffice: `17 June 1811`,
 	},
 	{

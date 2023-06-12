@@ -16,7 +16,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Nicolás Rodríguez Peña`,
+		name: `Nicolás Rodríguez Peña - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `9 July 1814`,
@@ -24,7 +24,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Miguel Estanislao Soler`,
+		name: `Miguel Estanislao Soler - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `25 August 1814`,
@@ -32,7 +32,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Fernando Otorgués`,
+		name: `Fernando Otorgués - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `26 February 1815`,
@@ -40,7 +40,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Miguel Barreiro`,
+		name: `Miguel Barreiro - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `July 1815`,
@@ -48,7 +48,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Carlos Frederico Lecor`,
+		name: `Carlos Frederico Lecor - United Kingdom of Portugal, Brazil and the Algarves`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 January 1817`,
@@ -56,7 +56,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Francisco de Paula Magessi Tavares de Carvalho`,
+		name: `Francisco de Paula Magessi Tavares de Carvalho - Empire of Brazil`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `3 February 1826`,
@@ -64,7 +64,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan Antonio Lavalleja`,
+		name: `Juan Antonio Lavalleja - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `19 September 1825`,
@@ -72,7 +72,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Joaquín Suárez`,
+		name: `Joaquín Suárez - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `5 July 1826`,
@@ -80,7 +80,7 @@ export const uruguay: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Luis Eduardo Pérez`,
+		name: `Luis Eduardo Pérez - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `12 October 1827`,

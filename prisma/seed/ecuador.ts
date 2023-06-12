@@ -12,6 +12,14 @@ export const ecuador: LeaderNoId[] = [
 		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `27 May 1717`,
+		leftOffice: `24 May 1822`,
+	},
+	{
+		countryId,
+		name: `Simón Bolívar - Gran Colombia`,
+		party: `Military`,
+		leaning: leanings.MILITARY,
+		tookOffice: `24 May 1822`,
 		leftOffice: `3 May 1830`,
 	},
 	{

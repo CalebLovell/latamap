@@ -8,7 +8,7 @@ const countryId = 20;
 export const argentina: LeaderNoId[] = [
 	{
 		countryId,
-		name: `Viceroyalty of the Río de la Plata`,
+		name: `Viceroyalty of the Río de la Plata - United Provinces of the Rio de la Plata`,
 		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 August 1776`,
@@ -16,55 +16,55 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Cornelio Saavedra`,
-		party: `Junta President`,
+		name: `Cornelio Saavedra - United Provinces of the Rio de la Plata`,
+		party: `Junta President - United Provinces of the Rio de la Plata`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `25 May 1810`,
 		leftOffice: `26 August 1811`,
 	},
 	{
 		countryId,
-		name: `Domingo Matheu`,
-		party: `Junta President`,
+		name: `Domingo Matheu - United Provinces of the Rio de la Plata`,
+		party: `Junta President - United Provinces of the Rio de la Plata`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `26 August 1811`,
 		leftOffice: `23 September 1811`,
 	},
 	{
 		countryId,
-		name: `Feliciano Chiclana`,
-		party: `First Triumvirate`,
+		name: `Feliciano Chiclana - United Provinces of the Rio de la Plata`,
+		party: `First Triumvirate - United Provinces of the Rio de la Plata`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `23 September 1811`,
 		leftOffice: `8 October 1812`,
 	},
 	{
 		countryId,
-		name: `Manuel de Sarratea`,
-		party: `First Triumvirate`,
+		name: `Manuel de Sarratea - United Provinces of the Rio de la Plata`,
+		party: `First Triumvirate - United Provinces of the Rio de la Plata`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `23 September 1811`,
 		leftOffice: `8 October 1812`,
 	},
 	{
 		countryId,
-		name: `Juan José Paso`,
-		party: `First Triumvirate`,
+		name: `Juan José Paso - United Provinces of the Rio de la Plata`,
+		party: `First Triumvirate - United Provinces of the Rio de la Plata`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `23 September 1811`,
 		leftOffice: `8 October 1812`,
 	},
 	{
 		countryId,
-		name: `Juan Martín de Pueyrredón`,
-		party: `First Triumvirate`,
+		name: `Juan Martín de Pueyrredón - United Provinces of the Rio de la Plata`,
+		party: `First Triumvirate - United Provinces of the Rio de la Plata`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `23 September 1811`,
 		leftOffice: `8 October 1812`,
 	},
 	{
 		countryId,
-		name: `Nicolás Rodríguez Peña`,
+		name: `Nicolás Rodríguez Peña - United Provinces of the Rio de la Plata`,
 		party: `Second Triumvirate`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `8 October 1812`,
@@ -72,7 +72,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Antonio Álvarez Jonte`,
+		name: `Antonio Álvarez Jonte - United Provinces of the Rio de la Plata`,
 		party: `Second Triumvirate`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `8 October 1812`,
@@ -80,7 +80,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Gervasio Antonio de Posadas`,
+		name: `Gervasio Antonio de Posadas - United Provinces of the Rio de la Plata`,
 		party: `Second Triumvirate`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 February 1813`,
@@ -88,7 +88,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan José Paso`,
+		name: `Juan José Paso - United Provinces of the Rio de la Plata`,
 		party: `Second Triumvirate`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `19 August 1813`,
@@ -96,7 +96,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan Larrea`,
+		name: `Juan Larrea - United Provinces of the Rio de la Plata`,
 		party: `Second Triumvirate`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `5 November 1813`,
@@ -104,7 +104,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Gervasio Antonio de Posadas`,
+		name: `Gervasio Antonio de Posadas - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `31 January 1814`,
@@ -112,7 +112,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Carlos María de Alvear`,
+		name: `Carlos María de Alvear - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `9 January 1815`,
@@ -120,7 +120,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José de San Martín`,
+		name: `José de San Martín - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 April 1815`,
@@ -128,7 +128,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Matías de Irigoyen`,
+		name: `Matías de Irigoyen - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 April 1815`,
@@ -136,7 +136,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Manuel de Sarratea`,
+		name: `Manuel de Sarratea - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 April 1815`,
@@ -144,7 +144,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José Rondeau`,
+		name: `José Rondeau - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 April 1815`,
@@ -152,7 +152,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Ignacio Álvarez Thomas`,
+		name: `Ignacio Álvarez Thomas - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `21 April 1815`,
@@ -160,7 +160,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Antonio González de Balcarce`,
+		name: `Antonio González de Balcarce - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `16 April 1816`,
@@ -168,7 +168,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan Martín de Pueyrredón`,
+		name: `Juan Martín de Pueyrredón - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `9 July 1816`,
@@ -176,7 +176,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José Rondeau`,
+		name: `José Rondeau - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `9 June 1819`,
@@ -184,7 +184,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan Pedro Aguirre`,
+		name: `Juan Pedro Aguirre - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 February 1820`,
@@ -192,7 +192,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Matías de Irigoyen`,
+		name: `Matías de Irigoyen - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `11 February 1820`,
@@ -200,7 +200,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Manuel de Sarratea`,
+		name: `Manuel de Sarratea - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 February 1820`,
@@ -208,7 +208,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan Ramón Balcarce`,
+		name: `Juan Ramón Balcarce - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `6 March 1820`,
@@ -216,7 +216,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Manuel de Sarratea`,
+		name: `Manuel de Sarratea - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `11 March 1820`,
@@ -224,7 +224,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Ildefonso Ramos Mexía`,
+		name: `Ildefonso Ramos Mexía - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `2 May 1820`,
@@ -232,7 +232,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Ildefonso Ramos Mexía and Miguel Estanislao Soler`,
+		name: `Ildefonso Ramos Mexía and Miguel Estanislao Soler - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 June 1820`,
@@ -240,7 +240,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Miguel Estanislao Soler`,
+		name: `Miguel Estanislao Soler - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `23 June 1820`,
@@ -248,7 +248,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Manuel Dorrego`,
+		name: `Manuel Dorrego - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `29 June 1820`,
@@ -256,7 +256,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Martín Rodríguez`,
+		name: `Martín Rodríguez - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 September 1820`,
@@ -264,7 +264,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan Gregorio de las Heras`,
+		name: `Juan Gregorio de las Heras - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `2 April 1824`,
@@ -272,7 +272,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Bernardino Rivadavia`,
+		name: `Bernardino Rivadavia - United Provinces of the Rio de la Plata`,
 		party: `Unitarian Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `8 February 1826`,
@@ -280,7 +280,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Vicente López y Planes`,
+		name: `Vicente López y Planes - United Provinces of the Rio de la Plata`,
 		party: `Unitarian Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `7 July 1827`,
@@ -288,7 +288,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Manuel Dorrego`,
+		name: `Manuel Dorrego - United Provinces of the Rio de la Plata`,
 		party: `Federalist Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `18 August 1827`,
@@ -296,7 +296,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan Lavalle`,
+		name: `Juan Lavalle - United Provinces of the Rio de la Plata`,
 		party: `Unitarian Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `1 December 1828`,
@@ -304,7 +304,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan José Viamonte`,
+		name: `Juan José Viamonte - United Provinces of the Rio de la Plata`,
 		party: `Federalist Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `26 June 1829`,
@@ -312,7 +312,7 @@ export const argentina: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan Manuel de Rosas`,
+		name: `Juan Manuel de Rosas - United Provinces of the Rio de la Plata`,
 		party: `Federalist Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `6 December 1829`,

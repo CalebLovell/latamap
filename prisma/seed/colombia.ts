@@ -32,15 +32,15 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Simón Bolívar`,
+		name: `Simón Bolívar - Gran Colombia`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
-		tookOffice: `15 February 1819`,
+		tookOffice: `17 December 1819`,
 		leftOffice: `4 May 1830`,
 	},
 	{
 		countryId,
-		name: `Joaquín de Mosquera y Arboleda`,
+		name: `Joaquín de Mosquera y Arboleda - Gran Colombia`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `4 May 1830`,
@@ -48,7 +48,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Rafael Urdaneta y Faría`,
+		name: `Rafael Urdaneta y Faría - Gran Colombia`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `4 May 1830`,
@@ -56,7 +56,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Domingo Caycedo y Sanz de Santamaría`,
+		name: `Domingo Caycedo y Sanz de Santamaría - Gran Colombia`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `30 April 1831`,
@@ -64,7 +64,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José María Obando del Campo`,
+		name: `José María Obando del Campo - Gran Colombia`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `21 November 1831`,
@@ -72,7 +72,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Francisco de Paula Santander y Omaña`,
+		name: `Francisco de Paula Santander y Omaña - Republic of New Granada`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `10 March 1832`,
@@ -80,7 +80,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José Ignacio de Márquez Barreto`,
+		name: `José Ignacio de Márquez Barreto - Republic of New Granada`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `1 April 1837`,
@@ -88,7 +88,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Pedro Alcántara Herrán Martínez`,
+		name: `Pedro Alcántara Herrán Martínez - Republic of New Granada`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `1 April 1841`,
@@ -96,7 +96,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Tomás Cipriano de Mosquera y Arboleda`,
+		name: `Tomás Cipriano de Mosquera y Arboleda - Republic of New Granada`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `1 April 1845`,
@@ -104,7 +104,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José Hilario López Valdéz`,
+		name: `José Hilario López Valdéz - Republic of New Granada`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1849`,
@@ -112,7 +112,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José María Obando del Campo`,
+		name: `José María Obando del Campo - Republic of New Granada`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1853`,
@@ -120,7 +120,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José María Melo y Ortiz`,
+		name: `José María Melo y Ortiz - Republic of New Granada`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `17 April 1854`,
@@ -128,7 +128,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Manuel María Mallarino Ibargüen`,
+		name: `Manuel María Mallarino Ibargüen - Republic of New Granada`,
 		party: `Colombian Conservative Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `4 December 1854`,
@@ -136,7 +136,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Mariano Ospina Rodríguez`,
+		name: `Mariano Ospina Rodríguez - Granadine Confederation`,
 		party: `Colombian Conservative Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 April 1857`,
@@ -144,7 +144,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Bartolomé Calvo Díaz`,
+		name: `Bartolomé Calvo Díaz - Granadine Confederation`,
 		party: `Colombian Conservative Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 April 1861`,
@@ -152,7 +152,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Juan José Nieto Gil`,
+		name: `Juan José Nieto Gil - Granadine Confederation`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `25 January 1861`,
@@ -160,7 +160,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Tomás Cipriano de Mosquera y Arboleda`,
+		name: `Tomás Cipriano de Mosquera y Arboleda - Granadine Confederation`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `18 July 1861`,
@@ -168,7 +168,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Tomás Cipriano de Mosquera y Arboleda`,
+		name: `Tomás Cipriano de Mosquera y Arboleda - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `14 May 1863`,
@@ -176,7 +176,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Manuel Murillo Toro`,
+		name: `Manuel Murillo Toro - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1864`,
@@ -184,7 +184,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Tomás Cipriano de Mosquera y Arboleda`,
+		name: `Tomás Cipriano de Mosquera y Arboleda - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1866`,
@@ -192,7 +192,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Santos Acosta Castillo`,
+		name: `Santos Acosta Castillo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `23 May 1867`,
@@ -200,7 +200,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Santos Gutiérrez Prieto`,
+		name: `Santos Gutiérrez Prieto - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1868`,
@@ -208,7 +208,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Eustorgio Salgar Moreno`,
+		name: `Eustorgio Salgar Moreno - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1870`,
@@ -216,7 +216,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Manuel Murillo Toro`,
+		name: `Manuel Murillo Toro - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1872`,
@@ -224,7 +224,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Santiago Pérez de Manosalbas`,
+		name: `Santiago Pérez de Manosalbas - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1874`,
@@ -232,7 +232,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Aquileo Parra Gómez`,
+		name: `Aquileo Parra Gómez - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1876`,
@@ -240,7 +240,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Julián Trujillo Largacha`,
+		name: `Julián Trujillo Largacha - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1878`,
@@ -248,7 +248,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Rafael Núñez Moledo`,
+		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1880`,
@@ -256,7 +256,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Rafael Núñez MoledoFrancisco Javier Zaldúa y Racines`,
+		name: `Rafael Núñez MoledoFrancisco Javier Zaldúa y Racines - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1882`,
@@ -264,7 +264,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José Eusebio Otálora Martínez`,
+		name: `José Eusebio Otálora Martínez - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `21 December 1882`,
@@ -272,7 +272,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Rafael Núñez Moledo`,
+		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 April 1884`,
@@ -280,7 +280,7 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Rafael Núñez Moledo`,
+		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `National Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 April 1886`,
