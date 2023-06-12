@@ -39,18 +39,18 @@ const SlideoverContent = () => {
 	const formatDate = (d: Date | undefined) => (d ? format(new Date(d), `MMMM do, yyy`) : undefined);
 
 	return (
-		<section className='overflow-auto pt-4'>
-			<ol className='relative pl-4 pr-1 pt-1'>
+		<section className='overflow-auto pb-4'>
+			<ol className='relative pl-4 pr-1 pb-1'>
 				<div
-					className='absolute left-3 top-1 inline-block border border-gray-900'
+					className='absolute left-3 bottom-1 inline-block border border-gray-900'
 					style={{
 						borderWidth: `0 3px 3px 0`,
 						padding: `3px`,
-						transform: `rotate(-135deg)`,
+						transform: `rotate(45deg)`,
 					}}
 				/>
 				{events.map((x, i) => (
-					<li key={x.title} className={classNames(i !== events.length - 1 ? `` : `pb-2`, `relative border-l border-gray-900 pl-4`)}>
+					<li key={x.title} className={classNames(i === 0 ? `pt-2` : ``, `relative border-l border-gray-900 pl-4`)}>
 						<button
 							className='rounded-md p-2 text-left hover:bg-blue-200'
 							onClick={() => {
