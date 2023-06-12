@@ -232,18 +232,10 @@ export const cuba: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Osvaldo Dorticós Torrado`,
-		party: `Socialist Party`,
-		leaning: leanings.FAR_LEFT,
-		tookOffice: `18 July 1959`,
-		leftOffice: `2 December 1976`,
-	},
-	{
-		countryId,
 		name: `Fidel Castro`,
 		party: `Communist Party`,
 		leaning: leanings.FAR_LEFT,
-		tookOffice: `2 December 1976`,
+		tookOffice: `18 July 1959`,
 		leftOffice: `24 February 2008`,
 	},
 	{
