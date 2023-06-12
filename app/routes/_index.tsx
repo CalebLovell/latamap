@@ -38,8 +38,13 @@ export const meta: V2_MetaFunction = () => {
 	];
 };
 
+// Random number to bust cache on new deploys
+const randomSeconds = Math.floor(Math.random() * 100000);
+// 1 year + randomSeconds
+const maxAge = 1 * 365 * 24 * 60 * 60 + randomSeconds;
+
 export const headers: HeadersFunction = () => ({
-	'Cache-Control': `public, max-age=31536000`,
+	'Cache-Control': `public, max-age=${maxAge}`,
 });
 
 export const loader = async () => {
