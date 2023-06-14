@@ -37,7 +37,7 @@ export const Header = () => {
 						<button
 							title='Open Slideover'
 							type='button'
-							className='flex rounded-md p-2 text-gray-900 transition duration-150 ease-in-out hover:bg-gray-200 active:scale-95'
+							className='plausible-event-name=Events flex rounded-md p-2 text-gray-900 transition duration-150 ease-in-out hover:bg-gray-200 active:scale-95'
 							onClick={() => setSlideoverIsOpen(!slideoverIsOpen)}
 						>
 							<p className='mr-2 hidden font-semibold md:block'>Events</p>

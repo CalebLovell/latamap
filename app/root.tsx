@@ -23,7 +23,7 @@ export default function App() {
 				<div id='tooltip' style={{ position: `absolute`, opacity: 0, zIndex: 10000000 }} />
 				<Outlet />
 				<ScrollRestoration />
-				<script defer data-domain='latamap.com' src='https://plausible.io/js/script.js' />
+				<script defer data-domain='latamap.com' src='https://plausible.io/js/script.tagged-events.js' />
 				<Scripts />
 				<LiveReload />
 			</body>

@@ -46,19 +46,6 @@ export const Sidebar = () => {
 				},
 			],
 		},
-		{
-			title: `Learn More`,
-			options: [
-				{
-					title: `Methodology Disclaimer`,
-					onClick: () => {
-						setDisclaimerModalIsOpen(true);
-						setSidebarIsOpen(false);
-					},
-					icon: <ExclamationTriangleIcon className='h-6 w-6 text-blue-900' />,
-				},
-			],
-		},
 	];
 
 	return (
@@ -127,6 +114,17 @@ export const Sidebar = () => {
 															{x.icon}
 														</button>
 													))}
+													<button
+														key='Methodology Disclaimer'
+														onClick={() => {
+															setDisclaimerModalIsOpen(true);
+															setSidebarIsOpen(false);
+														}}
+														className='plausible-event-name=Disclaimer flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95'
+													>
+														Methodology Disclaimer
+														<ExclamationTriangleIcon className='h-6 w-6 text-blue-900' />
+													</button>
 													<a
 														className='flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95'
 														href='https://www.caleblovell.com/blog/building-latamap-website'
