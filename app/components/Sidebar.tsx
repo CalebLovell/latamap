@@ -30,7 +30,7 @@ export const Sidebar = () => {
 					icon: <CalendarIcon className='h-6 w-6 text-blue-900' />,
 				},
 				{
-					title: `Swap Color Scheme`,
+					title: `Invert Color Scheme`,
 					onClick: () => setMapColorType(mapColorType === `usa` ? `global` : `usa`),
 					icon: <SwatchIcon className='h-6 w-6 text-blue-900' />,
 				},
