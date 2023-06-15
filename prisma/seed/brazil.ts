@@ -148,6 +148,14 @@ export const brazil: LeaderNoId[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `3 November 1930`,
+		leftOffice: `10 November 1937`,
+	},
+	{
+		countryId,
+		name: `Getúlio Vargas`,
+		party: `Estado Novo`,
+		leaning: leanings.FAR_RIGHT,
+		tookOffice: `10 November 1937`,
 		leftOffice: `29 October 1945`,
 	},
 	{
@@ -170,7 +178,7 @@ export const brazil: LeaderNoId[] = [
 		countryId,
 		name: `Getúlio Vargas`,
 		party: `Brazilian Labour Party`,
-		leaning: leanings.CENTER_LEFT,
+		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `31 January 1951`,
 		leftOffice: `24 August 1954`,
 	},
