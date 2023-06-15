@@ -35,7 +35,7 @@ export const leaningLabels = {
 	5: `Center Right`,
 	6: `Right Wing`,
 	7: `Far Right`,
-	8: `Military`,
+	8: `Military Non-Aligned`,
 	9: `Monarchy`,
 };
 
