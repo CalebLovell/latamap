@@ -29,6 +29,8 @@ type AppState = {
 	setSidebarIsOpen: (by: boolean) => void;
 	slideoverIsOpen: boolean;
 	setSlideoverIsOpen: (by: boolean) => void;
+	bannerIsOpen: boolean;
+	setBannerIsOpen: (by: boolean) => void;
 	keyIsVisible: boolean;
 	setKeyIsVisible: (by: boolean) => void;
 	panelIsVisible: boolean;
@@ -44,6 +46,8 @@ export const useAppStore = create<AppState>(set => ({
 	setSidebarIsOpen: (by: boolean) => set({ sidebarIsOpen: by }),
 	slideoverIsOpen: false,
 	setSlideoverIsOpen: (by: boolean) => set({ slideoverIsOpen: by }),
+	bannerIsOpen: true,
+	setBannerIsOpen: (by: boolean) => set({ bannerIsOpen: by }),
 	keyIsVisible: true,
 	setKeyIsVisible: (by: boolean) => set({ keyIsVisible: by }),
 	panelIsVisible: true,

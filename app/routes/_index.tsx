@@ -4,6 +4,7 @@ import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
 import * as React from 'react';
 
+import { Banner } from '~/components/Banner';
 import { DataPanel } from '~/components/DataPanel';
 import { DateModal } from '~/components/DateModal';
 import { DisclaimerModal } from '~/components/DisclaimerModal';
@@ -76,6 +77,7 @@ export default function Index() {
 		<>
 			<div className='flex h-screen flex-col items-center bg-radial-at-br from-red-100 via-orange-100 to-blue-100'>
 				<Header />
+				<Banner />
 				<main className='flex h-full w-full max-w-3xl flex-1 flex-col items-center justify-center'>
 					<div className='relative h-content w-full'>
 						<Map />
