@@ -538,7 +538,7 @@ export const argentina: LeaderNoId[] = [
 		countryId,
 		name: `José Félix Uriburu`,
 		party: `Argentine Armed Forces`,
-		leaning: leanings.RIGHT,
+		leaning: leanings.FAR_RIGHT,
 		tookOffice: `6 September 1930`,
 		leftOffice: `20 February 1932`,
 	},

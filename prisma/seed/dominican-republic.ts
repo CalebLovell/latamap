@@ -40,7 +40,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Haitian occupation of Santo Domingo`,
+		name: `Haitian Occupation of Santo Domingo`,
 		party: `Republic of Haiti`,
 		leaning: leanings.MILITARY,
 		tookOffice: `9 February 1822`,
@@ -632,7 +632,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `United States occupation of the Dominican Republic`,
+		name: `United States Occupation of the Dominican Republic`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `4 May 1916`,

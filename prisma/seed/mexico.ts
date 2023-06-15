@@ -690,7 +690,7 @@ export const mexico: LeaderNoId[] = [
 		countryId,
 		name: `Lázaro Cárdenas`,
 		party: `Institutional Revolutionary Party`,
-		leaning: leanings.CENTER_RIGHT,
+		leaning: leanings.LEFT,
 		tookOffice: `1 December 1934`,
 		leftOffice: `30 November 1940`,
 	},

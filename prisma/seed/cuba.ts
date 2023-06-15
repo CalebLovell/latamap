@@ -162,7 +162,7 @@ export const cuba: LeaderNoId[] = [
 		countryId,
 		name: `Fulgencio Batista`,
 		party: `Democratic Socialist Coalition`,
-		leaning: leanings.FAR_RIGHT,
+		leaning: leanings.LEFT,
 		tookOffice: `10 October 1940`,
 		leftOffice: `10 October 1944`,
 	},

@@ -21,7 +21,7 @@ export const events = [
 		title: `Colombian Declaration of Independence`,
 		date: new Date(1810, 6, 20),
 		country: `Colombia`,
-		description: `Colombia declares independence from Spain. Through the leadership of figures like Simón Bolívar, Colombia will fight Spain for the next decade. The eventual success of the revolution will eventually lead to the establishment of an independent state known as Gran Colombia, which will include modern-day Colombia, Venezuela, Ecuador, and Panama.`,
+		description: `Colombia declares independence from Spain. Through the leadership of figures like Simón Bolívar, Colombia will fight Spain for the next decade. The success of the revolution will eventually lead to the establishment of an independent state known as Gran Colombia, which will include modern-day Colombia, Venezuela, Ecuador, and Panama.`,
 	},
 	{
 		title: `Mexican War of Independence`,
