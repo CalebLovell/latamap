@@ -235,8 +235,8 @@ export const brazil: LeaderNoId[] = [
 		name: `Pascoal Ranieri Mazzilli`,
 		party: `Social Democratic Party`,
 		leaning: leanings.CENTER_RIGHT,
-		tookOffice: `2 April 1964`,
-		leftOffice: `14 April 1964`,
+		tookOffice: `1 April 1964`,
+		leftOffice: `15 April 1964`,
 	},
 	{
 		countryId,
@@ -244,7 +244,7 @@ export const brazil: LeaderNoId[] = [
 		party: `National Renewal Alliance`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `15 April 1964`,
-		leftOffice: `14 March 1967`,
+		leftOffice: `15 March 1967`,
 	},
 	{
 		countryId,
@@ -268,7 +268,7 @@ export const brazil: LeaderNoId[] = [
 		party: `National Renewal Alliance`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `30 October 1969`,
-		leftOffice: `14 March 1974`,
+		leftOffice: `15 March 1974`,
 	},
 	{
 		countryId,
@@ -276,15 +276,15 @@ export const brazil: LeaderNoId[] = [
 		party: `National Renewal Alliance`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `15 March 1974`,
-		leftOffice: `14 March 1979`,
+		leftOffice: `15 March 1979`,
 	},
 	{
 		countryId,
 		name: `João Figueiredo`,
 		party: `Democratic Social Party`,
-		leaning: leanings.RIGHT,
+		leaning: leanings.FAR_RIGHT,
 		tookOffice: `15 March 1979`,
-		leftOffice: `14 March 1985`,
+		leftOffice: `15 March 1985`,
 	},
 	{
 		countryId,
@@ -292,7 +292,7 @@ export const brazil: LeaderNoId[] = [
 		party: `Brazilian Democratic Movement`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `15 March 1985`,
-		leftOffice: `14 March 1990`,
+		leftOffice: `15 March 1990`,
 	},
 	{
 		countryId,
@@ -308,7 +308,7 @@ export const brazil: LeaderNoId[] = [
 		party: `Brazilian Democratic Movement`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `2 October 1992`,
-		leftOffice: `31 December 1994`,
+		leftOffice: `1 January 1995`,
 	},
 	{
 		countryId,
@@ -340,7 +340,7 @@ export const brazil: LeaderNoId[] = [
 		party: `Brazilian Democratic Movement`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `12 May 2016`,
-		leftOffice: `31 December 2018`,
+		leftOffice: `1 January 2018`,
 	},
 	{
 		countryId,
