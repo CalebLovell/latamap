@@ -30,7 +30,7 @@ export const meta: V2_MetaFunction = () => {
 		{ property: `og:image:height`, content: `630` },
 		{ property: `og:image:type`, content: `image/png` },
 		{ name: `twitter:card`, content: `summary_large_image` },
-		{ name: `twitter:site`, content: `@Caleb__Lovell` },
+		{ name: `twitter:site`, content: `@CalebLovell` },
 		{ name: `twitter:title`, content: `Latin American Political History Map` },
 		{ name: `twitter:image`, content: `https://latamap.com/images/screenshot.png` },
 		{ name: `twitter:description`, content: `A visual timeline of the political history of Latin America` },
