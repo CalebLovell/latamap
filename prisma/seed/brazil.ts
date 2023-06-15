@@ -209,7 +209,7 @@ export const brazil: LeaderNoId[] = [
 	{
 		countryId,
 		name: `Jânio Quadros`,
-		party: `Podemos Brazil`,
+		party: `National Labour Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `31 January 1961`,
 		leftOffice: `25 August 1961`,
