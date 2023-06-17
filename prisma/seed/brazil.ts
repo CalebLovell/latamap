@@ -348,7 +348,7 @@ export const brazil: LeaderNoId[] = [
 		party: `Brazilian Democratic Movement`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `12 May 2016`,
-		leftOffice: `1 January 2018`,
+		leftOffice: `1 January 2019`,
 	},
 	{
 		countryId,
