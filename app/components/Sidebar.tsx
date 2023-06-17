@@ -1,5 +1,5 @@
 import { Dialog, Transition } from '@headlessui/react';
-import { BookOpenIcon, CalendarIcon, ExclamationTriangleIcon, FlagIcon, KeyIcon, SwatchIcon, TableCellsIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import { BookOpenIcon, CalendarIcon, ExclamationTriangleIcon, KeyIcon, SwatchIcon, TableCellsIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import * as React from 'react';
 
 import { useAppStore, useMapStore } from '~/data/store';
@@ -8,8 +8,6 @@ export const Sidebar = () => {
 	const {
 		sidebarIsOpen,
 		setSidebarIsOpen,
-		bannerIsOpen,
-		setBannerIsOpen,
 		keyIsVisible,
 		setKeyIsVisible,
 		panelIsVisible,
@@ -46,18 +44,13 @@ export const Sidebar = () => {
 					onClick: () => setPanelIsVisible(!panelIsVisible),
 					icon: <TableCellsIcon className='h-6 w-6 text-blue-900' />,
 				},
-				{
-					title: `Reopen Banner Message`,
-					onClick: () => setBannerIsOpen(!bannerIsOpen),
-					icon: <FlagIcon className='h-6 w-6 text-blue-900' />,
-				},
 			],
 		},
 	];
 
 	return (
 		<Transition.Root show={sidebarIsOpen} as={React.Fragment}>
-			<Dialog as='div' static className='z-40 fixed inset-0 overflow-hidden' open={sidebarIsOpen} onClose={setSidebarIsOpen}>
+			<Dialog as='div' static className='fixed inset-0 z-40 overflow-hidden' open={sidebarIsOpen} onClose={setSidebarIsOpen}>
 				<Transition.Child
 					as={React.Fragment}
 					enter='transition-opacity ease-linear duration-300'
@@ -94,7 +87,7 @@ export const Sidebar = () => {
 									</button>
 								</div>
 								<div className='h-0.5 w-full bg-gradient-to-r from-blue-400 via-orange-400 to-red-400' />
-								<div className='flex h-full w-full overflow-auto flex-col justify-between bg-radial-at-br from-red-50 via-orange-50 to-blue-50 p-2'>
+								<div className='flex h-full w-full flex-col justify-between overflow-auto bg-radial-at-br from-red-50 via-orange-50 to-blue-50 p-2'>
 									<div>
 										<div className='mb-2 text-xs font-semibold leading-6 text-gray-900'>Map Information</div>
 										<div className='flex flex-col space-y-2 text-sm text-gray-900'>
