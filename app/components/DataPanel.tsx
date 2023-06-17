@@ -38,14 +38,14 @@ export const DataPanel = () => {
 					{leader?.name ? (
 						<>
 							<div className='space-y-0 border-y border-gray-300 p-1 md:space-y-1 md:p-2'>
-								<div className='flex w-full flex-none items-center gap-x-2'>
+								<div className='flex w-full flex-none items-center gap-x-1'>
 									<dt className='flex-none'>
 										<span className='sr-only'>Leader</span>
 										<UserCircleIcon className='h-5 w-4 text-gray-600' aria-hidden='true' />
 									</dt>
 									<dd className='text-xs font-medium leading-6 text-gray-900 md:text-sm'>{name}</dd>
 								</div>
-								<div className='flex w-full flex-none items-center gap-x-2'>
+								<div className='flex w-full flex-none items-center gap-x-1'>
 									<dt className='flex-none'>
 										<span className='sr-only'>Time in Office</span>
 										<ClockIcon className='h-5 w-4 text-gray-600' aria-hidden='true' />
@@ -54,14 +54,14 @@ export const DataPanel = () => {
 										<time dateTime='2023-01-31'>{inOffice}</time>
 									</dd>
 								</div>
-								<div className='flex w-full flex-none items-center gap-x-2'>
+								<div className='flex w-full flex-none items-center gap-x-1'>
 									<dt className='flex-none'>
 										<span className='sr-only'>Political Party</span>
 										<AcademicCapIcon className='h-5 w-4 text-gray-600' aria-hidden='true' />
 									</dt>
 									<dd className='text-xs leading-6 text-gray-800 md:text-sm'>{party}</dd>
 								</div>
-								<div className='flex w-full flex-none items-center gap-x-2'>
+								<div className='flex w-full flex-none items-center gap-x-1'>
 									<dt className='flex-none'>
 										<span className='sr-only'>Political Leaning</span>
 										<LightBulbIcon className='h-5 w-4 text-gray-600' aria-hidden='true' />
