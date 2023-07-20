@@ -8,6 +8,8 @@
 		"linty": "eslint app --fix",
 		"ts": "tsc -b",
 		"clean": "npm run pretty && npm run linty && npm run ts",
+		"e2e": "playwright test && playwright show-report",
+		"test": "npm run e2e",
 		"db:studio": "npx prisma studio",
 		"db:reset": "npx prisma migrate reset",
 		"postinstall": "prisma generate"
@@ -25,7 +27,10 @@
 		"d3": "^7.8.4",
 		"date-fns": "^2.29.3",
 		"framer-motion": "^10.12.4",
+		"isbot": "^3.6.8",
 		"rc-tooltip": "^6.0.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
 		"react-draggable": "^4.4.5",
 		"react-range": "^1.8.14",
 		"react-use": "^17.4.0",
@@ -33,23 +38,20 @@
 		"topojson-client": "^3.1.0",
 		"topojson-server": "^3.0.1",
 		"use-debounce": "^9.0.4",
-		"zustand": "^4.3.7",
-		"isbot": "^3.6.8",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"zustand": "^4.3.7"
 	},
 	"devDependencies": {
+		"@playwright/test": "^1.36.1",
 		"@remix-run/dev": "^1.16.1",
 		"@remix-run/eslint-config": "^1.16.1",
 		"@remix-run/serve": "^1.16.1",
+		"@types/d3": "^7.4.0",
 		"@types/react": "^18.0.35",
 		"@types/react-dom": "^18.0.11",
-		"eslint": "^8.38.0",
-		"typescript": "^5.0.4",
-		"@types/d3": "^7.4.0",
 		"@types/topojson-client": "^3.1.1",
 		"@types/topojson-server": "^3.0.1",
 		"esbuild-register": "^3.4.2",
+		"eslint": "^8.38.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-import": "^2.27.5",
 		"eslint-plugin-jsx-a11y": "^6.7.1",
@@ -59,7 +61,8 @@
 		"eslint-plugin-simple-import-sort": "^10.0.0",
 		"prettier-plugin-tailwindcss": "^0.2.8",
 		"prisma": "^4.13.0",
-		"tailwindcss": "^3.3.2"
+		"tailwindcss": "^3.3.2",
+		"typescript": "^5.0.4"
 	},
 	"engines": {
 		"node": ">=14"

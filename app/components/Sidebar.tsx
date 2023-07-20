@@ -81,7 +81,6 @@ export const Sidebar = () => {
 										className='flex transform rounded-md from-red-200 via-orange-200 to-blue-200 px-2 py-1.5 font-bold text-gray-900 duration-150 ease-in-out hover:bg-gray-300 active:scale-95'
 										onClick={() => setSidebarIsOpen(false)}
 									>
-										<span className='sr-only'>Close sidebar</span>
 										<p className='mr-2 font-semibold'>Close</p>
 										<XMarkIcon className='h-6 w-6 text-red-600' aria-hidden='true' />
 									</button>
