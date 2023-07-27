@@ -34,7 +34,7 @@ export const EventList = () => {
 };
 
 const SlideoverContent = () => {
-	const { setDate, setSelectedCountry } = useMapStore();
+	const { date, setDate, setSelectedCountry } = useMapStore();
 
 	const formatDate = (d: Date | undefined) => (d ? format(new Date(d), `MMMM do, yyy`) : undefined);
 
@@ -49,23 +49,31 @@ const SlideoverContent = () => {
 						transform: `rotate(45deg)`,
 					}}
 				/>
-				{events.map((x, i) => (
-					<li key={x.title} className={classNames(i === 0 ? `pt-0 lg:pt-2` : ``, `relative border-l border-gray-900 pl-4`)}>
-						<button
-							className='rounded-md p-2 text-left hover:bg-blue-200'
-							onClick={() => {
-								setDate(x.date);
-								setSelectedCountry(x.country);
-							}}
-							type='button'
-						>
-							{i !== events.length - 1 && <div className='absolute -bottom-[1.55rem] -left-[.27rem] h-2 w-2 rounded-full bg-gray-900 pt-2' />}
-							<time className='pb-1 text-xs font-semibold leading-none text-gray-500'>{formatDate(x.date)}</time>
-							<h3 className='text-lg font-semibold text-gray-900'>{x.title}</h3>
-							<p className='text-base font-normal text-gray-900'>{x.description}</p>
-						</button>
-					</li>
-				))}
+				{events.map((x, i) => {
+					const currentDate = date && new Date(x.date).getDate() === date.getDate();
+					return (
+						<li key={x.title} className={classNames(i === 0 ? `pt-0 lg:pt-2` : ``, ` relative border-l border-gray-900 pl-4`)}>
+							<button
+								className={classNames(
+									currentDate ? `border-2 border-blue-900` : `border-2 border-transparent`,
+									`rounded-md px-2 py-0.5 text-left hover:bg-blue-200 my-1`
+								)}
+								onClick={() => {
+									setDate(x.date);
+									setSelectedCountry(x.country);
+								}}
+								type='button'
+							>
+								{i !== events.length - 1 && (
+									<div className='absolute -bottom-[1.6rem] -left-[.27rem] h-2 w-2 rounded-full bg-gray-900 pt-2' />
+								)}
+								<time className='pb-1 text-xs font-semibold leading-none text-gray-500'>{formatDate(x.date)}</time>
+								<h3 className='text-lg font-semibold text-gray-900'>{x.title}</h3>
+								<p className='text-base font-normal text-gray-900'>{x.description}</p>
+							</button>
+						</li>
+					);
+				})}
 			</ol>
 		</section>
 	);
