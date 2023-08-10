@@ -50,13 +50,13 @@ const SlideoverContent = () => {
 					}}
 				/>
 				{events.map((x, i) => {
-					const currentDate = date && new Date(x.date).getDate() === date.getDate();
+					const currentDate = formatDate(x.date) === formatDate(date);
 					return (
 						<li key={x.title} className={classNames(i === 0 ? `pt-0 lg:pt-2` : ``, ` relative border-l border-gray-900 pl-4`)}>
 							<button
 								className={classNames(
 									currentDate ? `border-2 border-blue-900` : `border-2 border-transparent`,
-									`rounded-md px-2 py-0.5 text-left hover:bg-blue-200 my-1`
+									`my-1 rounded-md px-2 py-0.5 text-left hover:bg-blue-200`
 								)}
 								onClick={() => {
 									setDate(x.date);
