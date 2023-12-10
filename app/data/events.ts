@@ -111,6 +111,6 @@ export const events = [
 		title: `Today`,
 		date: new Date(),
 		country: `Argentina`,
-		description: `The trend of anti-establishment politics continues in Latin America, with the recent elections of businessman Daniel Noboa in Ecuador and libertaian Javier Milei in Argentina.`,
+		description: `The trend of anti-establishment politics continues in Latin America, with the recent elections of businessman Daniel Noboa in Ecuador and libertarian Javier Milei in Argentina.`,
 	},
 ];
