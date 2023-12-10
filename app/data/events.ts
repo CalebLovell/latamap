@@ -110,7 +110,7 @@ export const events = [
 	{
 		title: `Today`,
 		date: new Date(),
-		country: `El Salvador`,
-		description: `Currently, Latin America is mostly controlled by left-wing leaders, with a few notable exceptions, such as Nayib Bukele of El Salvador, who maintains one of the highest approval ratings in the world. While his tactics to reduce crime have proven effective, they are also criticized for being authoritarian.`,
+		country: `Argentina`,
+		description: `The trend of anti-establishment politics continues in Latin America, with the recent elections of businessman Daniel Noboa in Ecuador and libertaian Javier Milei in Argentina.`,
 	},
 ];
