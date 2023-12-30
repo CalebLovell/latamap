@@ -41,7 +41,8 @@ export const meta: V2_MetaFunction = () => {
 // Random number to bust cache on new deploys
 const randomSeconds = Math.floor(Math.random() * 1000);
 // Cache time in seconds. 1 week currently
-const maxAge = 60 * 60 * 24 * 7 + randomSeconds;
+// const maxAge = 60 * 60 * 24 * 7 + randomSeconds;
+const maxAge = 0;
 
 export const headers: HeadersFunction = () => ({
 	'Cache-Control': `public, max-age=${maxAge}`,
