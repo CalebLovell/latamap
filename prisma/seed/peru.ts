@@ -674,7 +674,7 @@ export const peru: LeaderNoId[] = [
 		countryId,
 		name: `Dina Boluarte`,
 		party: `Independent`,
-		leaning: leanings.LEFT,
+		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `7 December 2022`,
 		leftOffice: null,
 	},
