@@ -565,6 +565,14 @@ export const guatemala: LeaderNoId[] = [
 		party: `Vamos`,
 		leaning: leanings.RIGHT,
 		tookOffice: `14 January 2020`,
-		leftOffice: null,
+		leftOffice: `14 January 2024`,
 	},
+	{
+		countryId,
+		name: `Bernardo Arévalo`,
+		party: `Semilla`,
+		leaning: leanings.CENTER_LEFT,
+		tookOffice: `14 January 2024`,
+		leftOffice: null,
+	}
 ];
