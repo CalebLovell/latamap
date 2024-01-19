@@ -40,7 +40,7 @@ export const Header = () => {
 							className='plausible-event-name=Events flex rounded-md p-2 text-gray-900 transition duration-150 ease-in-out hover:bg-gray-200 active:scale-95'
 							onClick={() => setSlideoverIsOpen(!slideoverIsOpen)}
 						>
-							<p className='mr-2 hidden font-semibold md:block'>Events</p>
+							<p className='mr-2 hidden font-semibold md:block'>Timeline</p>
 							{slideoverIsOpen ? (
 								<ArrowRightCircleIcon className='h-6 w-6 text-blue-900' />
 							) : (
