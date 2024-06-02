@@ -600,7 +600,7 @@ export const haiti: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Claude Joseph`,
+		name: `Council of Ministers - Claude Joseph`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `7 July 2021`,
@@ -608,10 +608,26 @@ export const haiti: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Ariel Henry`,
+		name: `Council of Ministers - Ariel Henry`,
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 July 2021`,
-		leftOffice: null,
+		leftOffice: `24 April 2024`,
 	},
+	{
+		countryId,
+		name: `Transitional Presidential Council - Michel Patrick Boisvert`,
+		party: `Independent`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `24 April 2024`,
+		leftOffice: `1 June 2024`,
+	},
+	{
+		countryId,
+		name: `Transitional Presidential Council - Garry Conille`,
+		party: `Independent`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `1 June 2024`,
+		leftOffice: null,
+	}
 ];

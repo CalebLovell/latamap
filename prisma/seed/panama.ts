@@ -733,6 +733,14 @@ export const panama: LeaderNoId[] = [
 		party: `Democratic Revolutionary Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 July 2019`,
-		leftOffice: null,
+		leftOffice: `1 July 2024`,
 	},
+	{
+		countryId,
+		name: `José Raúl Mulino`,
+		party: `Realizing Goals`,
+		leaning: leanings.RIGHT,
+		tookOffice: `1 July 2024`,
+		leftOffice: null,
+	}
 ];
