@@ -30,35 +30,37 @@ import { venezuela } from './seed/venezuela';
 
 const prisma = new PrismaClient();
 
+const createdAt = new Date();
+
 const countries: Country[] = [
-	{ id: 1, name: `United States of America` },
-	{ id: 2, name: `Mexico` },
-	{ id: 3, name: `Guatemala` },
-	{ id: 4, name: `Belize` },
-	{ id: 5, name: `El Salvador` },
-	{ id: 6, name: `Honduras` },
-	{ id: 7, name: `Nicaragua` },
-	{ id: 8, name: `Costa Rica` },
-	{ id: 9, name: `Panama` },
-	{ id: 10, name: `Colombia` },
-	{ id: 11, name: `Venezuela` },
-	{ id: 12, name: `Ecuador` },
-	{ id: 13, name: `Guyana` },
-	{ id: 14, name: `Suriname` },
-	{ id: 15, name: `French Guyana` },
-	{ id: 16, name: `Peru` },
-	{ id: 17, name: `Bolivia` },
-	{ id: 18, name: `Paraguay` },
-	{ id: 19, name: `Brazil` },
-	{ id: 20, name: `Argentina` },
-	{ id: 21, name: `Uruguay` },
-	{ id: 22, name: `Chile` },
-	{ id: 23, name: `Puerto Rico` },
-	{ id: 24, name: `Cuba` },
-	{ id: 25, name: `Jamaica` },
-	{ id: 26, name: `Haiti` },
-	{ id: 27, name: `Dominican Republic` },
-	{ id: 28, name: `Trinidad and Tobago` },
+	{ id: 1, name: `United States of America`, createdAt },
+	{ id: 2, name: `Mexico`, createdAt },
+	{ id: 3, name: `Guatemala`, createdAt },
+	{ id: 4, name: `Belize`, createdAt },
+	{ id: 5, name: `El Salvador`, createdAt },
+	{ id: 6, name: `Honduras`, createdAt },
+	{ id: 7, name: `Nicaragua`, createdAt },
+	{ id: 8, name: `Costa Rica`, createdAt },
+	{ id: 9, name: `Panama`, createdAt },
+	{ id: 10, name: `Colombia`, createdAt },
+	{ id: 11, name: `Venezuela`, createdAt },
+	{ id: 12, name: `Ecuador`, createdAt },
+	{ id: 13, name: `Guyana`, createdAt },
+	{ id: 14, name: `Suriname`, createdAt },
+	{ id: 15, name: `French Guyana`, createdAt },
+	{ id: 16, name: `Peru`, createdAt },
+	{ id: 17, name: `Bolivia`, createdAt },
+	{ id: 18, name: `Paraguay`, createdAt },
+	{ id: 19, name: `Brazil`, createdAt },
+	{ id: 20, name: `Argentina`, createdAt },
+	{ id: 21, name: `Uruguay`, createdAt },
+	{ id: 22, name: `Chile`, createdAt },
+	{ id: 23, name: `Puerto Rico`, createdAt },
+	{ id: 24, name: `Cuba`, createdAt },
+	{ id: 25, name: `Jamaica`, createdAt },
+	{ id: 26, name: `Haiti`, createdAt },
+	{ id: 27, name: `Dominican Republic`, createdAt },
+	{ id: 28, name: `Trinidad and Tobago`, createdAt },
 ];
 
 const leaders = [
@@ -93,14 +95,14 @@ const leaders = [
 
 async function main() {
 	const createManyCountryPromises = countries.map(({ id, name }) => {
-		return prisma.country.create({ data: { id, name } });
+		return prisma.country.create({ data: { id, name, createdAt } });
 	});
 	const seededCountries = await Promise.all(createManyCountryPromises);
 	console.log({ seededCountries });
 
 	const createManyLeadersPromises = leaders.map(({ countryId, name, party, leaning, tookOffice, leftOffice }) => {
 		return prisma.leader.create({
-			data: { countryId, name, party, leaning, tookOffice: new Date(tookOffice), leftOffice: leftOffice ? new Date(leftOffice) : null },
+			data: { countryId, name, party, leaning, tookOffice: new Date(tookOffice), leftOffice: leftOffice ? new Date(leftOffice) : null, createdAt },
 		});
 	});
 	const seededLeaders = await Promise.all(createManyLeadersPromises);

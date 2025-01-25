@@ -12,7 +12,6 @@ model Country {
    name   String
    leader Leader[]
 	createdAt DateTime @default(now())
-	updatedAt DateTime @updatedAt
 }
 
 model Leader {
@@ -25,7 +24,6 @@ model Leader {
    leftOffice DateTime?
    Country    Country  @relation(fields: [countryId], references: [id])
 	createdAt  DateTime @default(now())
-	updatedAt  DateTime @updatedAt
 
    @@map("Leader")
 }
