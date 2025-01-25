@@ -684,6 +684,14 @@ export const uruguay: LeaderNoId[] = [
 		party: `National Party / White Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 March 2020`,
-		leftOffice: null,
+		leftOffice: `1 March 2025`,
 	},
+	{
+		countryId,
+		name: `Yamandú Orsi`,
+		party: `Broad Front`,
+		leaning: leanings.LEFT,
+		tookOffice: `1 March 2025`,
+		leftOffice: null,
+	}
 ];

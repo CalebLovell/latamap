@@ -616,18 +616,18 @@ export const haiti: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Transitional Presidential Council - Michel Patrick Boisvert`,
-		party: `Independent`,
-		leaning: leanings.CENTRIST,
+		name: `Transitional Presidential Council - Edgard Leblanc Fils`,
+		party: `Struggling People's Organization`,
+		leaning: leanings.CENTER_LEFT,
 		tookOffice: `24 April 2024`,
-		leftOffice: `1 June 2024`,
+		leftOffice: `7 October 2024`,
 	},
 	{
 		countryId,
-		name: `Transitional Presidential Council - Garry Conille`,
-		party: `Independent`,
-		leaning: leanings.CENTRIST,
-		tookOffice: `1 June 2024`,
+		name: `Transitional Presidential Council - Leslie Voltaire`,
+		party: `Fanmi Lavalas`,
+		leaning: leanings.CENTER_LEFT,
+		tookOffice: `7 October 2024`,
 		leftOffice: null,
 	}
 ];

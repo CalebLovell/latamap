@@ -372,6 +372,14 @@ export const usa: LeaderNoId[] = [
 		party: `Democratic Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `2021-01-20T00:00:00.000Z`,
+		leftOffice: `2025-01-20T00:00:00.000Z`,
+	},
+	{
+		countryId,
+		name: `Donald Trump`,
+		party: `Republican Party`,
+		leaning: leanings.FAR_RIGHT,
+		tookOffice: `2025-01-20T00:00:00.000Z`,
 		leftOffice: null,
 	},
 ];

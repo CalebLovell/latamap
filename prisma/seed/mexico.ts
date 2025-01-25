@@ -684,7 +684,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `4 September 1932`,
-		leftOffice: `30 November 1934`,
+		leftOffice: `1 December 1934`,
 	},
 	{
 		countryId,
@@ -692,7 +692,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `1 December 1934`,
-		leftOffice: `30 November 1940`,
+		leftOffice: `1 December 1940`,
 	},
 	{
 		countryId,
@@ -700,7 +700,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1940`,
-		leftOffice: `30 November 1946`,
+		leftOffice: `1 December 1946`,
 	},
 	{
 		countryId,
@@ -708,7 +708,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1946`,
-		leftOffice: `30 November 1952`,
+		leftOffice: `1 December 1952`,
 	},
 	{
 		countryId,
@@ -716,7 +716,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1952`,
-		leftOffice: `30 November 1958`,
+		leftOffice: `1 December 1958`,
 	},
 	{
 		countryId,
@@ -724,7 +724,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1958`,
-		leftOffice: `30 November 1964`,
+		leftOffice: `1 December 1964`,
 	},
 	{
 		countryId,
@@ -732,7 +732,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1964`,
-		leftOffice: `30 November 1970`,
+		leftOffice: `1 December 1970`,
 	},
 	{
 		countryId,
@@ -740,7 +740,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1970`,
-		leftOffice: `30 November 1976`,
+		leftOffice: `1 December 1976`,
 	},
 	{
 		countryId,
@@ -748,7 +748,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1976`,
-		leftOffice: `30 November 1982`,
+		leftOffice: `1 December 1982`,
 	},
 	{
 		countryId,
@@ -756,7 +756,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1982`,
-		leftOffice: `30 November 1988`,
+		leftOffice: `1 December 1988`,
 	},
 	{
 		countryId,
@@ -764,7 +764,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1988`,
-		leftOffice: `30 November 1994`,
+		leftOffice: `1 December 1994`,
 	},
 	{
 		countryId,
@@ -772,7 +772,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1994`,
-		leftOffice: `30 November 2000`,
+		leftOffice: `1 December 2000`,
 	},
 	{
 		countryId,
@@ -780,7 +780,7 @@ export const mexico: LeaderNoId[] = [
 		party: `National Action Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 2000`,
-		leftOffice: `30 November 2006`,
+		leftOffice: `1 December 2006`,
 	},
 	{
 		countryId,
@@ -788,7 +788,7 @@ export const mexico: LeaderNoId[] = [
 		party: `National Action Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 2006`,
-		leftOffice: `30 November 2012`,
+		leftOffice: `1 December 2012`,
 	},
 	{
 		countryId,
@@ -796,7 +796,7 @@ export const mexico: LeaderNoId[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 2012`,
-		leftOffice: `30 November 2018`,
+		leftOffice: `1 December 2018`,
 	},
 	{
 		countryId,
@@ -804,6 +804,14 @@ export const mexico: LeaderNoId[] = [
 		party: `National Regeneration Movement`,
 		leaning: leanings.LEFT,
 		tookOffice: `1 December 2018`,
-		leftOffice: null,
+		leftOffice: `1 October 2024`,
 	},
+	{
+		countryId,
+		name: `Claudia Sheinbaum`,
+		party: `National Regeneration Movement`,
+		leaning: leanings.LEFT,
+		tookOffice: `1 October 2024`,
+		leftOffice: null
+	}
 ];
