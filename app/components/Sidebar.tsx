@@ -1,5 +1,15 @@
 import { Dialog, Transition } from '@headlessui/react';
-import { BookOpenIcon, CalendarIcon, ExclamationTriangleIcon, KeyIcon, SwatchIcon, TableCellsIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import {
+	ArrowPathRoundedSquareIcon,
+	BookOpenIcon,
+	CalendarIcon,
+	ExclamationTriangleIcon,
+	KeyIcon,
+	SwatchIcon,
+	TableCellsIcon,
+	XMarkIcon,
+} from '@heroicons/react/24/solid';
+import { format } from 'date-fns';
 import * as React from 'react';
 
 import { useAppStore, useMapStore } from '~/data/store';
@@ -47,6 +57,8 @@ export const Sidebar = () => {
 			],
 		},
 	];
+
+	const lastUpdated = format(new Date(), `MMM do, yyyy`);
 
 	return (
 		<Transition.Root show={sidebarIsOpen} as={React.Fragment}>
@@ -149,19 +161,25 @@ export const Sidebar = () => {
 											</React.Fragment>
 										))}
 									</div>
-									<div className='flex items-center justify-center space-x-2 pt-2'>
-										{socials.map(x => (
-											<a
-												key={x.title}
-												href={x.href}
-												className='rounded p-2 text-blue-900 transition duration-150 ease-in-out hover:rotate-12 hover:bg-gray-200'
-												target='_blank'
-												rel='noreferrer'
-											>
-												<span className='sr-only'>{x.title}</span>
-												{x.svg}
-											</a>
-										))}
+									<div className='flex flex-col justify-center pt-2'>
+										<div className='flex items-center justify-center space-x-1 pt-2'>
+											<ArrowPathRoundedSquareIcon className='h-3.5 w-3.5 text-gray-900' />
+											<p className='text-xs font-semibold italic text-gray-900'>Data updated on {lastUpdated}</p>
+										</div>
+										<div className='flex items-center justify-center space-x-2 pt-2'>
+											{socials.map(x => (
+												<a
+													key={x.title}
+													href={x.href}
+													className='rounded p-2 text-blue-900 transition duration-150 ease-in-out hover:rotate-12 hover:bg-gray-200'
+													target='_blank'
+													rel='noreferrer'
+												>
+													<span className='sr-only'>{x.title}</span>
+													{x.svg}
+												</a>
+											))}
+										</div>
 									</div>
 								</div>
 							</div>
