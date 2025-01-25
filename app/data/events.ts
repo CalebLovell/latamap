@@ -108,9 +108,9 @@ export const events = [
 		description: `Lula da Silva is elected president of Brazil, capping off a second wave of left-wing leaders elected in Latin America, with leaders like AMLO of Mexico, Gustavo Petro of Colombia, Gabriel Boric of Chile, and a resurgent Nicolás Maduro in Venezuela dominating the political landscape.`,
 	},
 	{
-		title: `Today`,
-		date: new Date(),
+		title: `Anti-Establishment Politics`,
+		date: new Date(2023, 11, 10),
 		country: `Argentina`,
-		description: `The trend of anti-establishment politics continues in Latin America, with the recent elections of businessman Daniel Noboa in Ecuador and libertarian Javier Milei in Argentina.`,
+		description: `The trend of anti-establishment politics continues in Latin America, with the elections of businessman Daniel Noboa in Ecuador and libertarian Javier Milei in Argentina.`,
 	},
 ];
