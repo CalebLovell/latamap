@@ -2,8 +2,8 @@ import { Dialog, Transition } from '@headlessui/react';
 import {
 	ArrowPathRoundedSquareIcon,
 	BookOpenIcon,
-	ClockIcon,
 	CalendarIcon,
+	ClockIcon,
 	ExclamationTriangleIcon,
 	KeyIcon,
 	SwatchIcon,
@@ -15,7 +15,17 @@ import * as React from 'react';
 
 import { useAppStore, useMapStore } from '~/data/store';
 
-export const Sidebar = () => {
+type SidebarProps = {
+	lastUpdated: Date;
+	mostRecentLeader: {
+		name: string;
+		Country: {
+			name: string;
+		};
+	} | null;
+};
+
+export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 	const {
 		sidebarIsOpen,
 		setSidebarIsOpen,
@@ -59,8 +69,10 @@ export const Sidebar = () => {
 		},
 	];
 
-	const lastUpdated = format(new Date(2025, 8, 11), `MMM do, yyyy`);
-	const mostRecentElection = `Uruguay, ${format(new Date(2025, 2, 1), `MMM do, yyyy`)}`;
+	const formattedLastUpdated = `Data updated on ${format(lastUpdated, `MMM do, yyyy`)}`;
+	const formattedMostRecentLeader = `Most recent election: ${
+		mostRecentLeader ? `${mostRecentLeader.name}, ${mostRecentLeader.Country.name}` : `Unknown`
+	}`;
 
 	return (
 		<Transition.Root show={sidebarIsOpen} as={React.Fragment}>
@@ -166,11 +178,11 @@ export const Sidebar = () => {
 									<div className='flex flex-col justify-center pt-2'>
 										<div className='flex items-center justify-center space-x-1 pt-2'>
 											<ArrowPathRoundedSquareIcon className='h-3.5 w-3.5 text-gray-900' />
-											<p className='text-xs font-semibold italic text-gray-900'>Data updated on {lastUpdated}</p>
+											<p className='text-xs font-semibold italic text-gray-900'>{formattedLastUpdated}</p>
 										</div>
 										<div className='flex items-center justify-center space-x-1 pt-2'>
 											<ClockIcon className='h-3.5 w-3.5 text-gray-900' />
-											<p className='text-xs font-semibold italic text-gray-900'>Most recent election: {mostRecentElection}</p>
+											<p className='text-xs font-semibold italic text-gray-900'>{formattedMostRecentLeader}</p>
 										</div>
 										<div className='flex items-center justify-center space-x-2 pt-2'>
 											{socials.map(x => (

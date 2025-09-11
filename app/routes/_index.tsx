@@ -40,12 +40,20 @@ export const meta: V2_MetaFunction = () => {
 export const loader = async () => {
 	const response = new Response();
 	const leaders = await prisma.leader.findMany({ include: { Country: true } });
+	const mostRecentUpdate = await prisma.leader.findFirst({
+		orderBy: { createdAt: `desc` },
+		select: { createdAt: true },
+	});
+	const newestLeader = await prisma.leader.findFirst({
+		orderBy: { tookOffice: `desc` },
+		select: { name: true, Country: { select: { name: true } } },
+	});
 
-	return json({ leaders }, { headers: response.headers });
+	return json({ leaders, lastUpdated: mostRecentUpdate?.createdAt ?? new Date(), mostRecentLeader: newestLeader }, { headers: response.headers });
 };
 
 export default function Index() {
-	const { leaders } = useLoaderData<typeof loader>();
+	const { leaders, lastUpdated, mostRecentLeader } = useLoaderData<typeof loader>();
 	const { setLeaders } = useMapStore();
 
 	// leaders dates became strings instead of dates, so we need to convert them back to dates
@@ -54,6 +62,11 @@ export default function Index() {
 			...x,
 			tookOffice: new Date(x.tookOffice),
 			leftOffice: x.leftOffice ? new Date(x.leftOffice) : null,
+			createdAt: new Date(x.createdAt),
+			Country: {
+				...x.Country,
+				createdAt: new Date(x.Country.createdAt),
+			},
 		};
 	});
 
@@ -75,7 +88,7 @@ export default function Index() {
 					<Timeline />
 				</main>
 				<EventList />
-				<Sidebar />
+				<Sidebar lastUpdated={new Date(lastUpdated)} mostRecentLeader={mostRecentLeader} />
 			</div>
 			<DateModal />
 			<DisclaimerModal />
