@@ -2,6 +2,7 @@ import { Dialog, Transition } from '@headlessui/react';
 import {
 	ArrowPathRoundedSquareIcon,
 	BookOpenIcon,
+	ClockIcon,
 	CalendarIcon,
 	ExclamationTriangleIcon,
 	KeyIcon,
@@ -58,7 +59,8 @@ export const Sidebar = () => {
 		},
 	];
 
-	const lastUpdated = format(new Date(2025, 0, 25), `MMM do, yyyy`);
+	const lastUpdated = format(new Date(2025, 8, 11), `MMM do, yyyy`);
+	const mostRecentElection = `Uruguay, ${format(new Date(2025, 2, 1), `MMM do, yyyy`)}`;
 
 	return (
 		<Transition.Root show={sidebarIsOpen} as={React.Fragment}>
@@ -165,6 +167,10 @@ export const Sidebar = () => {
 										<div className='flex items-center justify-center space-x-1 pt-2'>
 											<ArrowPathRoundedSquareIcon className='h-3.5 w-3.5 text-gray-900' />
 											<p className='text-xs font-semibold italic text-gray-900'>Data updated on {lastUpdated}</p>
+										</div>
+										<div className='flex items-center justify-center space-x-1 pt-2'>
+											<ClockIcon className='h-3.5 w-3.5 text-gray-900' />
+											<p className='text-xs font-semibold italic text-gray-900'>Most recent election: {mostRecentElection}</p>
 										</div>
 										<div className='flex items-center justify-center space-x-2 pt-2'>
 											{socials.map(x => (
