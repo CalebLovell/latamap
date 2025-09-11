@@ -90,8 +90,16 @@ export const suriname: LeaderNoId[] = [
 		countryId,
 		name: `Chan Santokhi`,
 		tookOffice: `16 July 2020`,
-		leftOffice: null,
+		leftOffice: `16 July 2025`,
 		party: `Progressive Reform Party`,
 		leaning: leanings.CENTER_LEFT,
 	},
+	{
+		countryId,
+		name: `Jennifer Geerlings-Simons`,
+		tookOffice: `16 July 2025`,
+		leftOffice: null,
+		party: `National Democratic Party`,
+		leaning: leanings.LEFT,
+	}
 ];

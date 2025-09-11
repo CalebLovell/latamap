@@ -58,7 +58,7 @@ export const Sidebar = () => {
 		},
 	];
 
-	const lastUpdated = format(new Date(), `MMM do, yyyy`);
+	const lastUpdated = format(new Date(2025, 0, 25), `MMM do, yyyy`);
 
 	return (
 		<Transition.Root show={sidebarIsOpen} as={React.Fragment}>
