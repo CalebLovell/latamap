@@ -676,6 +676,14 @@ export const peru: LeaderNoId[] = [
 		party: `Independent`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `7 December 2022`,
-		leftOffice: null,
+		leftOffice: `10 October 2025`,
 	},
+	{
+		countryId,
+		name: `José Jerí`,
+		party: `We Are Peru`,
+		leaning: leanings.RIGHT,
+		tookOffice: `10 October 2025`,
+		leftOffice: null,
+	}
 ];
