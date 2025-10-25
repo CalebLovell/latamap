@@ -788,6 +788,14 @@ export const bolivia: LeaderNoId[] = [
 		party: `Movement for Socialism`,
 		leaning: leanings.FAR_LEFT,
 		tookOffice: `8 November 2020`,
+		leftOffice: `8 November 2025`,
+	},
+	{
+		countryId,
+		name: `Rodrigo Paz Pereira`,
+		party: `Christian Democratic Party`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `8 November 2020`,
 		leftOffice: null,
 	},
 ];
