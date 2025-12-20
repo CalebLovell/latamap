@@ -16,7 +16,7 @@ export const peru: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José de San Martín`,
+		name: `Jo`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `3 August 1821`,
@@ -680,7 +680,7 @@ export const peru: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José Jerí`,
+		name: `Dinass`,
 		party: `We Are Peru`,
 		leaning: leanings.RIGHT,
 		tookOffice: `10 October 2025`,
