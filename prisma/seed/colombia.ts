@@ -576,8 +576,8 @@ export const colombia: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Gustavo Francisco Petro Urrego`,
-		party: `Humane Colombia`,
+		name: `Gustavo Petro`,
+		party: `Historic Pact`,
 		leaning: leanings.LEFT,
 		tookOffice: `7 August 2022`,
 		leftOffice: null,

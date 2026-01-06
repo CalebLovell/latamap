@@ -108,9 +108,15 @@ export const events = [
 		description: `Lula da Silva is elected president of Brazil, capping off a second wave of left-wing leaders elected in Latin America, with leaders like AMLO of Mexico, Gustavo Petro of Colombia, Gabriel Boric of Chile, and a resurgent Nicolás Maduro in Venezuela dominating the political landscape.`,
 	},
 	{
-		title: `Anti-Establishment Politics`,
-		date: new Date(2023, 11, 10),
-		country: `Argentina`,
-		description: `The trend of anti-establishment politics continues in Latin America, with the elections of businessman Daniel Noboa in Ecuador and libertarian Javier Milei in Argentina.`,
+		title: `End of Second Pink Tide`,
+		date: new Date(2025, 10, 8),
+		country: `Bolivia`,
+		description: `MAS party loses election in a landslide defeat, shifting Bolivia to the right for the first time in two decades. This follows a trend of left-wing defeats all across the region, marking a clear end to the second pink tide.`,
+	},
+	{
+		title: `Capture of Nicolás Maduro`,
+		date: new Date(2026, 0, 3),
+		country: `Venezuela`,
+		description: `Maduro is captured in Caracas by US special forces during a raid authorized by Donald Trump. He is extradited to the US, where he faces trial for drug trafficking charges. Vice President Delcy Rodríguez assumes the de facto presidency of Venezuela.`,
 	},
 ];
