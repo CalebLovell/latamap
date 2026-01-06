@@ -778,7 +778,7 @@ export const ecuador: LeaderNoId[] = [
 		countryId,
 		name: `Daniel Noboa`,
 		party: `National Democratic Action`,
-		leaning: leanings.CENTRIST,
+		leaning: leanings.RIGHT,
 		tookOffice: `23 November 2023`,
 		leftOffice: null,
 	},
