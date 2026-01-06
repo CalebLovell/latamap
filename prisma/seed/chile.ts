@@ -772,6 +772,14 @@ export const chile: LeaderNoId[] = [
 		party: `Social Convergence`,
 		leaning: leanings.LEFT,
 		tookOffice: `11 March 2022`,
+		leftOffice: `11 March 2026`,
+	},
+	{
+		countryId,
+		name: `José Antonio Kast`,
+		party: `Republican Party`,
+		leaning: leanings.FAR_RIGHT,
+		tookOffice: `11 March 2026`,
 		leftOffice: null,
 	},
 ];

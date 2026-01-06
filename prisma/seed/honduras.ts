@@ -717,6 +717,14 @@ export const honduras: LeaderNoId[] = [
 		party: `Liberty and Refoundation`,
 		leaning: leanings.LEFT,
 		tookOffice: `27 January 2022`,
-		leftOffice: null,
+		leftOffice: `27 January 2026`,
 	},
+	{
+		countryId,
+		name: `Nasry Asfura`,
+		party: `National Party of Honduras`,
+		leaning: leanings.RIGHT,
+		tookOffice: `27 January 2026`,
+		leftOffice: null,
+	}
 ];
