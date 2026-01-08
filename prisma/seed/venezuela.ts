@@ -608,7 +608,7 @@ export const venezuela: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `Delcy Rodríguez`,
+		name: `elcy Rodríguez`,
 		party: `United Socialist Party`,
 		leaning: leanings.FAR_LEFT,
 		tookOffice: `3 January 2026`,
