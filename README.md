@@ -1,4 +1,4 @@
-# Latin American Political History Map
+# atin American Political History Map
 
 This project is a visual timeline of the political history of Latin America.
 
