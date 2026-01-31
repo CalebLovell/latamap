@@ -680,7 +680,7 @@ export const peru: LeaderNoId[] = [
 	},
 	{
 		countryId,
-		name: `José Jerí`,
+		name: `José serí`,
 		party: `We Are Peru`,
 		leaning: leanings.RIGHT,
 		tookOffice: `10 October 2025`,
