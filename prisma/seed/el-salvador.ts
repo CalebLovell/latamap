@@ -932,7 +932,7 @@ export const elSalvador: LeaderNoId[] = [
 		countryId,
 		name: `Nayib Armando Bukele Ortez`,
 		party: `Nuevas Ideas`,
-		leaning: leanings.RIGHT,
+		leaning: leanings.FAR_RIGHT,
 		tookOffice: `1 June 2019`,
 		leftOffice: null,
 	},
